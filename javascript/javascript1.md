@@ -1,5 +1,5 @@
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
-<tr><td>1</td><td>[js代码三种书写方式](https://github.com/qianjilou/mycourses/blob/master/javascript/chapter11.md)</td><th>:white_check_mark:</th><td></td><td>21</td><td>设置常见的属性值</td><th>:white_check_mark:</th></tr>
+<tr><td>1</td><td>![js代码三种书写方式](https://github.com/qianjilou/mycourses/blob/master/javascript/chapter11.md)</td><th>:white_check_mark:</th><td></td><td>21</td><td>设置常见的属性值</td><th>:white_check_mark:</th></tr>
 <tr><td>2</td><td>javascript变量命名&使用规则</td><th>:white_check_mark:</th><td></td><td>22</td><td>变量交换与属性修改</td><th>:white_check_mark:</th></tr>
 <tr><td>3</td><td>javascript变量的类型</td><th>:white_check_mark:</th><td></td><td>23</td><td>innerHTML与图片切图效果</td><th>:white_check_mark:</th></tr>
 <tr><td>4</td><td>javascript多个变量的定义方式</td><th>:white_check_mark:</th><td></td><td>24</td><td>提取行间事件</td><th>:white_check_mark:</th></tr>
