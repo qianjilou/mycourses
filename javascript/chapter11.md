@@ -49,11 +49,13 @@
 </html>
 ```
 ### 3.javascript变量的类型
-```script
+```javascript
 //变量的类型有变量的值来决定
 //弱类型语言
+
 var age = 20;
 alert(typeof age);
+
 //对象:物体，一个东西
 var a =document;
 alert(typeof a);//object
@@ -67,7 +69,50 @@ alert(a);
 alert(typeof null);//空对象
 ```
 ### 4.javascript多个变量的定义方式  
+```javascript
+var userName = "qianjilou";
+var age = 20;
+var sex = "男";
+
+//alert (userName);
+//alert (age);
+//alert(sex);
+
+/*
+1.当加号的两边是字符串类型，那么就表示相连
+2.如果两边都是数字，那就是运算
+ */
+
+alert("姓名:" + userName);//姓名:qianjilou
+alert(10 + 20);//30
+alert('10' + 20);//1020
+//用var声明多个变量的时候，前面的变量用逗号隔开，最后的变量用分号结束
+alert("姓名:" + userName + "," + "性别" + sex);
+
+
+var userName = 'qianjilou',sex,age;
+sex = "男";
+age = 20;
+alert(sex);
+```
 ### 5.javascript算数,复合,自增与自减运算符  
+```javascript
+var a =10;
+var b =20;
+a += b;//a = a + b
+a -= b;
+a *= b;
+a %= b;
+a++;//a = a +1先使用，后运算
+++a;//a = a +1先运算，后使用
+
+
+var a = 10;
+alert(a++);//10
+alert(++a);//12
+alert(a--);//12
+alert(--a);//10
+```
 ### 6.javascript比较,逻辑运算&条件判断  
 ### 7.javascript循环控制语句  
 ### 8.javascript二重循环,break与conti  
