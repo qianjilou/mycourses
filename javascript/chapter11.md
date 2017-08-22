@@ -113,6 +113,7 @@ alert(++a);//12
 alert(a--);//12
 alert(--a);//10
 ```
+
 ### 6.javascript比较,逻辑运算&条件判断  
 ```javascript
 var a =10;
@@ -125,6 +126,18 @@ alert(a != b)
 //判断条件
 //循环类
 //
+
+var n = 10;
+if ( n > 0){
+	alert( n + '是负数');
+}else{
+	if ( n < 0 ){
+		alert( n + '负数');
+	}
+	else {
+		alert( n + '是负数');
+	}
+}
 ```
 ### 7.javascript循环控制语句  
 ### 8.javascript二重循环,break与conti  
