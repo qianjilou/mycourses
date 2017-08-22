@@ -14,7 +14,7 @@
 <tr><td>13</td><td>while循环修改素数与斜角div</td><th>:white_check_mark:</th><td></td><td>33</td><td>隔行变色与this与三元运算符的用法</td><th>:white_check_mark:</th></tr>
 <tr><td>14</td><td>函数的定义与使用</td><th>:white_check_mark:</th><td></td><td>34</td><td>实现分页功能</td><th>:white_check_mark:</th></tr>
 <tr><td>15</td><td>变量与函数作用域</td><th>:white_check_mark:</th><td></td><td>35</td><td>定时器用法</td><th>:white_check_mark:</th></tr>
-<tr><td>16</td><td>函数封装&应用</td><th>:white_check_mark:</th><td></td><td>36</td><td>定时器用法</td><th>:white_check_mark:</th></tr>
+<tr><td>16</td><td>函数封装&应用1</td><th>:white_check_mark:</th><td></td><td>36</td><td>定时器用法</td><th>:white_check_mark:</th></tr>
 <tr><td>17</td><td>函数封装&应用2</td><th>:white_check_mark:</th><td></td><td>37</td><td>定时器制作闹钟</td><th>:white_check_mark:</th></tr>
 <tr><td>18</td><td>函数封装&应用3</td><th>:white_check_mark:</th><td></td><td>38</td><td>定时器随时抽奖</td><th>:white_check_mark:</th></tr>
 <tr><td>19</td><td>修改样式</td><th>:white_check_mark:</th><td></td><td>39</td><td>定时器生成v形图案</td><th>:white_check_mark:</th></tr>
