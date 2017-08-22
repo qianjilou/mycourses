@@ -19,5 +19,5 @@
 <tr><td>18</td><td>第二种面向对象封装时钟</td><th>:white_check_mark:</th><td></td><td>38</td><td>框架封装-实现jQuery中的siblings方法</td><th>:white_check_mark:</th></tr>
 <tr><td>19</td><td>原型构造方式</td><th>:white_check_mark:</th><td></td><td>39</td><td>框架封装-利用现有框架封装的方法实现选项卡</td><th>:white_check_mark:</th></tr>
 <tr><td>20</td><td>this是谁</td><th>:white_check_mark:</th><td></td><td>40</td><td>选项卡-隔行变色组合实例(面向过程解法一)</td><th>:white_check_mark:</th></tr>
-<tr><td></td><th></th><td></td><td>41</td><td>选项卡-隔行变色组合实例(面向过程解法一)</td><th>:white_check_mark:</th></tr>
+<tr><td></td><td></td><th></th><td></td><td>41</td><td>选项卡-隔行变色组合实例(面向过程解法一)</td><th>:white_check_mark:</th></tr>
 </table>
