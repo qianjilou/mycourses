@@ -20,7 +20,7 @@
 <tr><td>19</td><td>修改样式</td><th>:white_check_mark:</th><td></td><td>39</td><td>定时器生成v形图案</td><th>:white_check_mark:</th></tr>
 <tr><td>20</td><td>读取样式与className和屏蔽空的锚</td><th>:white_check_mark:</th><td></td><td>40</td><td>换皮肤,车标,显示与隐藏输入法与登录提示信息</td><th>:white_check_mark:</th></tr>
 </table>
----
+<hr>
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
 <tr><td>41</td><td>定时器制作时钟的第二种解法</td><th>:white_check_mark:</th><td></td><td>61</td><td>合并匀速运动函数_解决公用一个定时器的问题</td><th>:white_check_mark:</th></tr>
 <tr><td>42</td><td>定时器文字拷贝</td><th>:white_check_mark:</th><td></td><td>62</td><td>合并匀速运动函数_解决多个不同的目标抢先关闭定时器的问题</td><th>:white_check_mark:</th></tr>
@@ -43,7 +43,7 @@
 <tr><td>59</td><td>匀速运动实例_侧边栏</td><th>:white_check_mark:</th><td></td><td>79</td><td>正则修复根据className获取元素的bug</td><th>:white_check_mark:</th></tr>
 <tr><td>60</td><td>匀速运动实例_淡入淡出</td><th>:white_check_mark:</th><td></td><td>80</td><td>去除左右空格</td><th>:white_check_mark:</th></tr>
 </table>
----
+<hr>
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5"> 
 <tr><td>81</td><td>qq_email正则</td><th>:white_check_mark:</th><td></td><td>101</td><td>用闭包发射小球</td><th>:white_check_mark:</th></tr>
 <tr><td>82</td><td>找出字符出现次数最多的那个</td><th>:white_check_mark:</th><td></td><td>102</td><td>拖放div操作</td><th>:white_check_mark:</th></tr>
