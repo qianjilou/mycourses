@@ -114,6 +114,18 @@ alert(a--);//12
 alert(--a);//10
 ```
 ### 6.javascript比较,逻辑运算&条件判断  
+```javascript
+var a =10;
+var b =20;
+
+alert(a <= b);//true
+alert(a === b);//flase
+alert(a != b)
+
+//判断条件
+//循环类
+//
+```
 ### 7.javascript循环控制语句  
 ### 8.javascript二重循环,break与conti  
 ### 9.javascript二重循环乘法与n行n列的表格  
