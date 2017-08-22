@@ -1,3 +1,4 @@
+<h2>[Js高手之路第二部]Javascript面向对象特效&框架封装实战</h2>
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
 <tr><td>1</td><td>框架封装-实现jQuery中的4个class相关方法</td><th>:white_check_mark:</th><td></td><td>21</td><td>原型构造方式封装抽奖</td><th>:white_check_mark:</th></tr>
 <tr><td>2</td><td>选项卡-隔行变色组合实例(面向对象&链式调用)</td><th>:white_check_mark:</th><td></td><td>22</td><td>原型构造凡事封装购物车-产品对象</td><th>:white_check_mark:</th></tr>

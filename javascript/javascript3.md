@@ -1,3 +1,4 @@
+<h2>[Js高手之路第三部]Javascript数组,字符串,正则表达式实战视频课程</h2>
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
 <tr><td>81</td><td>qq_email正则</td><th></th></tr>
 <tr><td>82</td><td>找出字符出现次数最多的那个</td><th></th></tr>
