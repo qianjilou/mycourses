@@ -9,12 +9,12 @@
 </head>
 <body>
 	<script>
-	// 2.内部插入
+	// 2.页面script方法
 		alert("你好!");
 	</script>
 
 <input type="button" value="点我" onclick="alert('大家好')">
-<!-- 3.事件引入 -->
+<!-- 3.行间事件触发 -->
 </body>
 </html>
 ```
