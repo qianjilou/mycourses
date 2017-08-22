@@ -25,7 +25,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>2.javascript变量命名&使用规则</title>
+	<title>2.javascript变量命名-使用规则</title>
 </head>
 <body>
 <p>1、什么是变量</p>
@@ -48,7 +48,11 @@
 </body>
 </html>
 ```
-### 3.javascript变量的类型  
+### 3.javascript变量的类型
+```script
+var age = 20;
+alert(typeof age);
+```
 ### 4.javascript多个变量的定义方式  
 ### 5.javascript算数,复合,自增与自减运算符  
 ### 6.javascript比较,逻辑运算&条件判断  
