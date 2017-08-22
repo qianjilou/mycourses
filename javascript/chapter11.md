@@ -25,7 +25,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>2.javascript变量命名&使用规则</title>
+	<title>2.javascript变量命名-使用规则</title>
 </head>
 <body>
 <p>1、什么是变量</p>
