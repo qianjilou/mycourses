@@ -42,7 +42,9 @@
 <tr><td>58</td><td>匀速运动原理(offsetLeft详解)</td><th>:white_check_mark:</th><td></td><td>78</td><td>正则表达式:子组引用</td><th>:white_check_mark:</th></tr>
 <tr><td>59</td><td>匀速运动实例_侧边栏</td><th>:white_check_mark:</th><td></td><td>79</td><td>正则修复根据className获取元素的bug</td><th>:white_check_mark:</th></tr>
 <tr><td>60</td><td>匀速运动实例_淡入淡出</td><th>:white_check_mark:</th><td></td><td>80</td><td>去除左右空格</td><th>:white_check_mark:</th></tr>
+</table>
 ---
+<table border="2" bordercolor="black" cellspacing="0" cellpadding="5"> 
 <tr><td>81</td><td>qq_email正则</td><th>:white_check_mark:</th><td></td><td>101</td><td>用闭包发射小球</td><th>:white_check_mark:</th></tr>
 <tr><td>82</td><td>找出字符出现次数最多的那个</td><th>:white_check_mark:</th><td></td><td>102</td><td>拖放div操作</td><th>:white_check_mark:</th></tr>
 <tr><td>83</td><td>表单验证</td><th>:white_check_mark:</th><td></td><td>103</td><td>拖放div边界越界判断</td><th>:white_check_mark:</th></tr>
