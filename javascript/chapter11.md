@@ -50,8 +50,21 @@
 ```
 ### 3.javascript变量的类型
 ```script
+//变量的类型有变量的值来决定
+//弱类型语言
 var age = 20;
 alert(typeof age);
+//对象:物体，一个东西
+var a =document;
+alert(typeof a);//object
+
+var a;
+alert(a);//声明变量的时候没有给值，那么它的值就是undefined
+alert(typof a);//类型(undefined)；
+
+var a = null;//本身是一个对象,但是是个空对象
+alert(a);
+alert(typeof null);//空对象
 ```
 ### 4.javascript多个变量的定义方式  
 ### 5.javascript算数,复合,自增与自减运算符  
