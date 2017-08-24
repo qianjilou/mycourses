@@ -6,4 +6,4 @@
 
 吴华  PHP零基础到项目实战视频课程
 
-[吴华 javascript](https://github.com/qianjilou/mycourses/tree/master/javascript)
+[吴华 javascript系列课程](https://github.com/qianjilou/mycourses/tree/master/javascript)
