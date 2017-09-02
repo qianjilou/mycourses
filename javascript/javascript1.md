@@ -19,7 +19,7 @@
 <tr><td>17</td><td><a href="https://github.com/qianjilou/mycourses/blob/master/javascript/chapter11.md">函数封装&应用2</a></td><th>:white_check_mark:</th><td></td><td>37</td><td>定时器制作闹钟</td><th>:white_check_mark:</th></tr>
 <tr><td>18</td><td><a href="https://github.com/qianjilou/mycourses/blob/master/javascript/chapter11.md">函数封装&应用3</a></td><th>:white_check_mark:</th><td></td><td>38</td><td>定时器随时抽奖</td><th>:white_check_mark:</th></tr>
 <tr><td>19</td><td><a href="https://github.com/qianjilou/mycourses/blob/master/javascript/chapter11.md">修改样式</a></td><th>:white_check_mark:</th><td></td><td>39</td><td>定时器生成v形图案</td><th>:white_check_mark:</th></tr>
-<tr><td>20</td><td><a href="https://github.com/qianjilou/mycourses/blob/master/javascript/chapter11.md">读取样式与className和屏蔽空的锚</a></td><th>:white_check_mark:</th><td></td><td>40</td><td>换皮肤,车标,显示与隐藏输入法与登录提示信息</td><th>:white_check_mark:</th></tr>
+<tr><td>20</td><td><a href="https://github.com/qianjilou/mycourses/blob/master/javascript/chapter11.md#20读取样式与classname和屏蔽空的锚">读取样式与className和屏蔽空的锚</a></td><th>:white_check_mark:</th><td></td><td>40</td><td>换皮肤,车标,显示与隐藏输入法与登录提示信息</td><th>:white_check_mark:</th></tr>
 </table>
 <hr>
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">
