@@ -12,4 +12,4 @@
 
 [吴华 bootstrap](https://github.com/qianjilou/mycourses/tree/master/javascript)
 
-[PHP笔记](https://github.com/qianjilou/mycourses/blob/master/php.md)
+[PHP笔记](https://github.com/qianjilou/mycourses/blob/master/php)
