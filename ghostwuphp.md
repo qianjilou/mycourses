@@ -59,9 +59,9 @@
     <tr><td>58</td><td>面向对象合并留言添加和编辑页面</td><td></td><th>:white_check_mark:</th></tr>
     <tr><td>59</td><td>面向对象模型层优化留言板</td><td></td><th>:white_check_mark:</th></tr>
     <tr><td>60</td><td>面向对象继承</td><td></td><th>:white_check_mark:</th></tr>
-    <tr><td>61</td><td>面向对象多态</td><td></td><th>:white_check_mark:</th></tr>
-    <tr><td>62</td><td>面向对象静态属性</td><td></td><th>:white_check_mark:</th></tr>
-    <tr><td>63</td><td>魔术方法</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>61</td><td>面向对象多态</td><td>24:07</td><th>:white_check_mark:</th></tr>
+    <tr><td>62</td><td>面向对象静态属性</td><td>30:50</td><th>:white_check_mark:</th></tr>
+    <tr><td>63</td><td>魔术方法</td><td>06:51</td><th>:white_check_mark:</th></tr>
     <tr><td>64</td><td>面向对象其他</td><td></td><th>:white_check_mark:</th></tr>
     <tr><td>65</td><td>文件上传</td><td></td><th>:white_check_mark:</th></tr>
     <tr><td>66</td><td>信息中存图片</td><td></td><th>:white_check_mark:</th></tr>
