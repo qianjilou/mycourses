@@ -1,93 +1,155 @@
 ## PHP零基础到项目实战视频课程
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
-    <tr><td>1</td><td>php 简介</td><th>:white_check_mark:</th></tr>
-    <tr><td>2</td><td>php安装与简单程序编写</td><th>:white_check_mark:</th></tr>
-    <tr><td>3</td><td>整数&字符串类型</td><th>:white_check_mark:</th></tr>
-    <tr><td>4</td><td>布尔,Null,资源,对象,数组,浮点</td><th>:white_check_mark:</th></tr>
-    <tr><td>5</td><td>变量的变量,变量的引用,常量</td><th>:white_check_mark:</th></tr>
-    <tr><td>6</td><td>操作符,运算符</td><th>:white_check_mark:</th></tr>
-    <tr><td>7</td><td>流程控制</td><th>:white_check_mark:</th></tr>
-    <tr><td>8</td><td>类型测试函数</td><th>:white_check_mark:</th></tr>
-    <tr><td>9</td><td>表单提交</td><th>:white_check_mark:</th></tr>
-    <tr><td>10</td><td>模拟登录表单作业</td><th>:white_check_mark:</th></tr>
-    <tr><td>11</td><td>打印素数</td><th>:white_check_mark:</th></tr>
-    <tr><td>12</td><td>函数定义&执行流程</td><th>:white_check_mark:</th></tr>
-    <tr><td>13</td><td>变量作用域</td><th>:white_check_mark:</th></tr>
-    <tr><td>14</td><td>引用参数,默认参数,可变参数</td><th>:white_check_mark:</th></tr>
-    <tr><td>15</td><td>递归&回调</td><th>:white_check_mark:</th></tr>
-    <tr><td>16</td><td>require_include引入文件,以及他们之间</td><th>:white_check_mark:</th></tr>
-    <tr><td>17</td><td>可替换的流程控制写法</td><th>:white_check_mark:</th></tr>
-    <tr><td>18</td><td>数组的定义</td><th>:white_check_mark:</th></tr>
-    <tr><td>19</td><td>数组的遍历</td><th>:white_check_mark:</th></tr>
-    <tr><td>20</td><td>二维数组遍历</td><th>:white_check_mark:</th></tr>
-    <tr><td>21</td><td>数组常用函数1</td><th>:white_check_mark:</th></tr>
-    <tr><td>22</td><td>数组常用函数3</td><th>:white_check_mark:</th></tr>
-    <tr><td>23</td><td>表单输出素数【排序,形状】1</td><th>:white_check_mark:</th></tr>
-    <tr><td>24</td><td>表单输出素数【排序,形状】2</td><th>:white_check_mark:</th></tr>
-    <tr><td>25</td><td>表单输出素数【排序,形状】3</td><th>:white_check_mark:</th></tr>
-    <tr><td>26</td><td>表单输出素数【排序,形状,代码优化】4</td><th>:white_check_mark:</th></tr>
-    <tr><td>27</td><td>表单输出素数【排序,形状,代码优化,bug修复】5</td><th>:white_check_mark:</th></tr>
-    <tr><td>28</td><td>表单输出素数【排序,形状,代码优化,bug修复】6</td><th>:white_check_mark:</th></tr>
-    <tr><td>29</td><td>冒泡&选择排序</td><th>:white_check_mark:</th></tr>
-    <tr><td>30</td><td>分页原理</td><th>:white_check_mark:</th></tr>
-    <tr><td>31</td><td>三维数组遍历</td><th>:white_check_mark:</th></tr>
-    <tr><td>32</td><td>列表查看方式作业1</td><th>:white_check_mark:</th></tr>
-    <tr><td>33</td><td>列表查看方式作业2</td><th>:white_check_mark:</th></tr>
-    <tr><td>34</td><td>字符串函数</td><th>:white_check_mark:</th></tr>
-    <tr><td>35</td><td>正则表达式(上)</td><th>:white_check_mark:</th></tr>
-    <tr><td>36</td><td>正则表达式(下)</td><th>:white_check_mark:</th></tr>
-    <tr><td>37</td><td>列表&平铺查看内容</td><th>:white_check_mark:</th></tr>
-    <tr><td>38</td><td>列表&平铺查看内容_分类</td><th>:white_check_mark:</th></tr>
-    <tr><td>39</td><td>敏感词过滤</td><th>:white_check_mark:</th></tr>
-    <tr><td>40</td><td>过滤标签</td><th>:white_check_mark:</th></tr>
-    <tr><td>41</td><td>列表_查看详细信息</td><th>:white_check_mark:</th></tr>
-    <tr><td>42</td><td>mysql数据库入门</td><th>:white_check_mark:</th></tr>
-    <tr><td>43</td><td>修改_分页_简单的sql语句</td><th>:white_check_mark:</th></tr>
-    <tr><td>44</td><td>php,mysql四种取数据的方法</td><th>:white_check_mark:</th></tr>
-    <tr><td>45</td><td>php,mysql曾，删改</td><th>:white_check_mark:</th></tr>
-    <tr><td>46</td><td>留言板</td><th>:white_check_mark:</th></tr>
-    <tr><td>47</td><td>分页选中,数据过滤</td><th>:white_check_mark:</th></tr>
-    <tr><td>49</td><td>数据库备份</td><th>:white_check_mark:</th></tr>
-    <tr><td>50</td><td>留言板后台</td><th>:white_check_mark:</th></tr>
-    <tr><td>51</td><td>留言板列表页取总数和所有留言优化</td><th>:white_check_mark:</th></tr>
-    <tr><td>52</td><td>留言板分页独立优化</td><th>:white_check_mark:</th></tr>
-    <tr><td>53</td><td>留言板取数据优化</td><th>:white_check_mark:</th></tr>
-    <tr><td>54</td><td>面向对象(oop)基本概念,构造&析构函数,属性&方法</td><th>:white_check_mark:</th></tr>
-    <tr><td>55</td><td>面向对象(oop)this&封装</td><th>:white_check_mark:</th></tr>
-    <tr><td>56</td><td>Mysql操作类的封装</td><th>:white_check_mark:</th></tr>
-    <tr><td>57</td><td>面向对象改造留言列表,发布留言</td><th>:white_check_mark:</th></tr>
-    <tr><td>58</td><td>面向对象合并留言添加和编辑页面</td><th>:white_check_mark:</th></tr>
-    <tr><td>59</td><td>面向对象模型层优化留言板</td><th>:white_check_mark:</th></tr>
-    <tr><td>60</td><td>面向对象继承</td><th>:white_check_mark:</th></tr>
-    <tr><td>61</td><td>面向对象多态</td><th>:white_check_mark:</th></tr>
-    <tr><td>62</td><td>面向对象静态属性</td><th>:white_check_mark:</th></tr>
-    <tr><td>63</td><td>魔术方法</td><th>:white_check_mark:</th></tr>
-    <tr><td>64</td><td>面向对象其他</td><th>:white_check_mark:</th></tr>
-    <tr><td>65</td><td>文件上传</td><th>:white_check_mark:</th></tr>
-    <tr><td>66</td><td>信息中存图片</td><th>:white_check_mark:</th></tr>
-    <tr><td>67</td><td>文章编辑器的用法</td><th>:white_check_mark:</th></tr>
-    <tr><td>68</td><td>分类模块</td><th>:white_check_mark:</th></tr>
-    <tr><td>69</td><td>分类管理&模块整合</td><th>:white_check_mark:</th></tr>
-    <tr><td>70</td><td>分类&内容跨表</td><th>:white_check_mark:</th></tr>
-    <tr><td>71</td><td>轮播模块</td><th>:white_check_mark:</th></tr>
-    <tr><td>72</td><td>分类列表文章查看</td><th>:white_check_mark:</th></tr>
-    <tr><td>73</td><td>时间函数_cookie_session</td><th>:white_check_mark:</th></tr>
-    <tr><td>74</td><td>session_cookie应用注册&登录</td><th>:white_check_mark:</th></tr>
-    <tr><td>75</td><td>文章发布用户留言</td><th>:white_check_mark:</th></tr>
-    <tr><td>76</td><td>系统登录&注册&注销</td><th>:white_check_mark:</th></tr>
-    <tr><td>77</td><td>系统面包屑</td><th>:white_check_mark:</th></tr>
-    <tr><td>78</td><td>后台文章添加&修改分类名称</td><th>:white_check_mark:</th></tr>
-    <tr><td>79</td><td>取出文章留言列表</td><th>:white_check_mark:</th></tr>
-    <tr><td>80</td><td>后台评论管理</td><th>:white_check_mark:</th></tr>
-    <tr><td>81</td><td>ajax基础&原理</td><th>:white_check_mark:</th></tr>
-    <tr><td>82</td><td>ajax三级联动</td><th>:white_check_mark:</th></tr>
-    <tr><td>83</td><td>GD库函数</td><th>:white_check_mark:</th></tr>
-    <tr><td>84</td><td>验证码的制作&应用</td><th>:white_check_mark:</th></tr>
-    <tr><td>85</td><td>jQuery_ajax方法三级联动</td><th>:white_check_mark:</th></tr>
-    <tr><td>86</td><td>jQuery_ajax_post方法三级联动</td><th>:white_check_mark:</th></tr>
-    <tr><td>87</td><td>图片缩放,裁剪,加水印</td><th>:white_check_mark:</th></tr>
-    <tr><td>88</td><td>smarty配置及变量,一维数组读取的原理分析</td><th>:white_check_mark:</th></tr>
-    <tr><td>89</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>1</td><td>php 简介</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>2</td><td>php安装与简单程序编写</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>3</td><td>整数&字符串类型</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>4</td><td>布尔,Null,资源,对象,数组,浮点</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>5</td><td>变量的变量,变量的引用,常量</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>6</td><td>操作符,运算符</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>7</td><td>流程控制</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>8</td><td>类型测试函数</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>9</td><td>表单提交</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>10</td><td>模拟登录表单作业</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>11</td><td>打印素数</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>12</td><td>函数定义&执行流程</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>13</td><td>变量作用域</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>14</td><td>引用参数,默认参数,可变参数</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>15</td><td>递归&回调</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>16</td><td>require_include引入文件,以及他们之间</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>17</td><td>可替换的流程控制写法</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>18</td><td>数组的定义</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>19</td><td>数组的遍历</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>20</td><td>二维数组遍历</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>21</td><td>数组常用函数1</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>22</td><td>数组常用函数3</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>23</td><td>表单输出素数【排序,形状】1</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>24</td><td>表单输出素数【排序,形状】2</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>25</td><td>表单输出素数【排序,形状】3</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>26</td><td>表单输出素数【排序,形状,代码优化】4</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>27</td><td>表单输出素数【排序,形状,代码优化,bug修复】5</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>28</td><td>表单输出素数【排序,形状,代码优化,bug修复】6</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>29</td><td>冒泡&选择排序</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>30</td><td>分页原理</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>31</td><td>三维数组遍历</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>32</td><td>列表查看方式作业1</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>33</td><td>列表查看方式作业2</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>34</td><td>字符串函数</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>35</td><td>正则表达式(上)</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>36</td><td>正则表达式(下)</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>37</td><td>列表&平铺查看内容</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>38</td><td>列表&平铺查看内容_分类</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>39</td><td>敏感词过滤</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>40</td><td>过滤标签</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>41</td><td>列表_查看详细信息</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>42</td><td>mysql数据库入门</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>43</td><td>修改_分页_简单的sql语句</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>44</td><td>php,mysql四种取数据的方法</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>45</td><td>php,mysql曾，删改</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>46</td><td>留言板</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>47</td><td>分页选中,数据过滤</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>49</td><td>数据库备份</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>50</td><td>留言板后台</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>51</td><td>留言板列表页取总数和所有留言优化</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>52</td><td>留言板分页独立优化</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>53</td><td>留言板取数据优化</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>54</td><td>面向对象(oop)基本概念,构造&析构函数,属性&方法</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>55</td><td>面向对象(oop)this&封装</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>56</td><td>Mysql操作类的封装</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>57</td><td>面向对象改造留言列表,发布留言</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>58</td><td>面向对象合并留言添加和编辑页面</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>59</td><td>面向对象模型层优化留言板</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>60</td><td>面向对象继承</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>61</td><td>面向对象多态</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>62</td><td>面向对象静态属性</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>63</td><td>魔术方法</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>64</td><td>面向对象其他</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>65</td><td>文件上传</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>66</td><td>信息中存图片</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>67</td><td>文章编辑器的用法</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>68</td><td>分类模块</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>69</td><td>分类管理&模块整合</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>70</td><td>分类&内容跨表</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>71</td><td>轮播模块</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>72</td><td>分类列表文章查看</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>73</td><td>时间函数_cookie_session</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>74</td><td>session_cookie应用注册&登录</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>75</td><td>文章发布用户留言</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>76</td><td>系统登录&注册&注销</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>77</td><td>系统面包屑</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>78</td><td>后台文章添加&修改分类名称</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>79</td><td>取出文章留言列表</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>80</td><td>后台评论管理</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>81</td><td>ajax基础&原理</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>82</td><td>ajax三级联动</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>83</td><td>GD库函数</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>84</td><td>验证码的制作&应用</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>85</td><td>jQuery_ajax方法三级联动</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>86</td><td>jQuery_ajax_post方法三级联动</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>87</td><td>图片缩放,裁剪,加水印</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>88</td><td>smarty配置及变量,一维数组读取的原理分析</td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>89</td><td></td><td></td><th>:white_check_mark:</th></tr>
+    <tr><td>89</td><td>smarty基本用法</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>90</td><td>smarty分离三级联动</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>91</td><td>信息管理系统 前端首页smarty改造</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>92</td><td>信息管理系统 前端首页smarty改造2</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>93</td><td>信息管理系统 前端分类页，详情页，面包屑导航smarty改造3</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>94</td><td>信息管理系统 ajax登录&注册smarty整合</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>95</td><td>信息管理系统 smarty发布留言</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>96</td><td>分页类封装</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>97</td><td>无限级分类</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>98</td><td>命名空间</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>99</td><td>Thinkphp目录结构简介</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>100</td><td>Thinkphp控制器的访问原理</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>101</td><td>Thinkphp常用控制器模式介绍</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>102</td><td>Thinkphp数据库连接&分页</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>103</td><td>Thinkphp发布留言</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>104</td><td>Thinkphp后台取出留言</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>105</td><td>Thinkphp语言包的配置&应用</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>106</td><td>Thinkphp留言添加</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>107</td><td>Thinkphp留言添加&编辑</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp留言更新</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp留言删除功能</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp大M和大D方法的区别</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp购物车建表</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp分类模块</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp商品添加</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp为商品添加多图</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp取出商品信息</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp去除商品的多图</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp产品更新</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp取出产品列表</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp后台整合</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp前台取产品_initialize使用</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp前台分类取产品&产品详情页的模块布局</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp产品详情页</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp导航选中状态整合</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp购物车功能</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp注册登录</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp确认订单三级联动地址</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>Thinkphp生成订单</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>netbeans安装_ecshop目录_表介绍</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop安装</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop概述历史版本</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop目录结构介绍</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop分类表详细分析</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop商品类型&属性</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop商品表分析1</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop商品上下架,提示信息修改</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop商品表分析2</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop核心初始化文件init.php源代码分析</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop_load_config详解</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop_cookie修改产品显示方法</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop_init核心文件完</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop_assign_template方法详解</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop_assign_ur_here_build_url 方法详解</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop首页数据详解</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop产品列表页</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop产品详情页讲解</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop商城模版制作:首页_产品列表_搜索</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop商城模版制作:详情，购物车，订单，注册，登录</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>ecshop后台功能模块开发：轮播模块开发</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td></td><td>网站架设，域名购买，程序上传</td><td></td><th>:white_check_mark:</th></tr>
+
 </table>
 
 ---
