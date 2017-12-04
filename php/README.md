@@ -20,7 +20,7 @@
 #### 01.php语言进阶
 #### 02.MVC框架讲解
 #### 03.缓存优化处理
-#### 04.设计模式
+#### [04.设计模式](https://github.com/qianjilou/mycourses/blob/master/php/php03-4%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 
 ---
 
