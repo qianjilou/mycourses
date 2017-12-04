@@ -129,25 +129,25 @@
 <tr><td>127</td><td>Thinkphp生成订单</td><td>28:58</td><th>:white_check_mark:</th></tr>
 <tr><td>128</td><td>netbeans安装_ecshop目录_表介绍</td><td>01:15:37</td><th>:white_check_mark:</th></tr>
 <tr><td>129</td><td>ecshop安装</td><td>03:37</td><th>:white_check_mark:</th></tr>
-<tr><td>130</td><td>ecshop概述历史版本</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>131</td><td>ecshop目录结构介绍</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>132</td><td>ecshop分类表详细分析</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>133</td><td>ecshop商品类型&属性</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>134</td><td>ecshop商品表分析1</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>135</td><td>ecshop商品上下架,提示信息修改</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>136</td><td>ecshop商品表分析2</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>137</td><td>ecshop核心初始化文件init.php源代码分析</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>138</td><td>ecshop_load_config详解</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>139</td><td>ecshop_cookie修改产品显示方法</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>140</td><td>ecshop_init核心文件完</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>141</td><td>ecshop_assign_template方法详解</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>142</td><td>ecshop_assign_ur_here_build_url 方法详解</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>143</td><td>ecshop首页数据详解</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>144</td><td>ecshop产品列表页</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>145</td><td>ecshop产品详情页讲解</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>146</td><td>ecshop商城模版制作:首页_产品列表_搜索</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>147</td><td>ecshop商城模版制作:详情，购物车，订单，注册，登录</td><td></td><th>:white_check_mark:</th></tr>
-<tr><td>148</td><td>ecshop后台功能模块开发：轮播模块开发</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>130</td><td>ecshop概述历史版本</td><td>11:57</td><th>:white_check_mark:</th></tr>
+<tr><td>131</td><td>ecshop目录结构介绍</td><td>08:58</td><th>:white_check_mark:</th></tr>
+<tr><td>132</td><td>ecshop分类表详细分析</td><td>13:30</td><th>:white_check_mark:</th></tr>
+<tr><td>133</td><td>ecshop商品类型&属性</td><td>26:07</td><th>:white_check_mark:</th></tr>
+<tr><td>134</td><td>ecshop商品表分析1</td><td>20:32</td><th>:white_check_mark:</th></tr>
+<tr><td>135</td><td>ecshop商品上下架,提示信息修改</td><td>05:25</td><th>:white_check_mark:</th></tr>
+<tr><td>136</td><td>ecshop商品表分析2</td><td>20:49</td><th>:white_check_mark:</th></tr>
+<tr><td>137</td><td>ecshop核心初始化文件init.php源代码分析</td><td>13:39</td><th>:white_check_mark:</th></tr>
+<tr><td>138</td><td>ecshop_load_config详解</td><td>53:27</td><th>:white_check_mark:</th></tr>
+<tr><td>139</td><td>ecshop_cookie修改产品显示方法</td><td>26:54</td><th>:white_check_mark:</th></tr>
+<tr><td>140</td><td>ecshop_init核心文件完</td><td>35:16</td><th>:white_check_mark:</th></tr>
+<tr><td>141</td><td>ecshop_assign_template方法详解</td><td>58:03</td><th>:white_check_mark:</th></tr>
+<tr><td>142</td><td>ecshop_assign_ur_here_build_url 方法详解</td><td>44:52</td><th>:white_check_mark:</th></tr>
+<tr><td>143</td><td>ecshop首页数据详解</td><td>01:01:09</td><th>:white_check_mark:</th></tr>
+<tr><td>144</td><td>ecshop产品列表页</td><td>01:06:13</td><th>:white_check_mark:</th></tr>
+<tr><td>145</td><td>ecshop产品详情页讲解</td><td>53:27</td><th>:white_check_mark:</th></tr>
+<tr><td>146</td><td>ecshop商城模版制作:首页_产品列表_搜索</td><td>01:00:30</td><th>:white_check_mark:</th></tr>
+<tr><td>147</td><td>ecshop商城模版制作:详情，购物车，订单，注册，登录</td><td>01:39:15</td><th>:white_check_mark:</th></tr>
+<tr><td>148</td><td>ecshop后台功能模块开发：轮播模块开发</td><td>01:07:08</td><th>:white_check_mark:</th></tr>
 <tr><td>149</td><td>网站架设，域名购买，程序上传</td><td></td><th>:white_check_mark:</th></tr>
 
 
