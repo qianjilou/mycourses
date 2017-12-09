@@ -86,10 +86,9 @@
     <tr><td>85</td><td>jQuery_ajax方法三级联动</td><td></td><th></th></tr>
     <tr><td>86</td><td>jQuery_ajax_post方法三级联动</td><td></td><th></th></tr>
     <tr><td>87</td><td>图片缩放,裁剪,加水印</td><td></td><th></th></tr>
-    <tr><td>88</td><td>smarty配置及变量,一维数组读取的原理分析</td><td></td><th></th></tr>
-    <tr><td>89</td><td></td><td></td><th></th></tr>
-    <tr><td>89</td><td>smarty基本用法</td><td></td><th></th></tr>
-<tr><td>90</td><td>smarty分离三级联动</td><td></td><th></th></tr>
+    <tr><td>88</td><td>smarty配置及变量,一维数组读取的原理分析</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>89</td><td>smarty基本用法</td><td></td><th>:white_check_mark:</th></tr>
+<tr><td>90</td><td>smarty分离三级联动</td><td></td><th>:white_check_mark:</th></tr>
 <tr><td>91</td><td>信息管理系统 前端首页smarty改造</td><td></td><th></th></tr>
 <tr><td>92</td><td>信息管理系统 前端首页smarty改造2</td><td></td><th></th></tr>
 <tr><td>93</td><td>信息管理系统 前端分类页，详情页，面包屑导航smarty改造3</td><td></td><th></th></tr>
