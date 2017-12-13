@@ -17,14 +17,15 @@
 ---
 
 ### 第三阶段：php中级
-#### 01.php语言进阶
-#### 02.MVC框架讲解
-#### 03.缓存优化处理
+#### [01.php语言进阶](https://github.com/qianjilou/mycourses/blob/master/php/php03-1%20php%E8%AF%AD%E8%A8%80%E8%BF%9B%E9%98%B6.md)
+(MySQLi扩展、PDO数据抽象层、)
+#### [02.MVC框架讲解](https://github.com/qianjilou/mycourses/blob/master/php/php03-2%20MVC%E6%A1%86%E6%9E%B6%E8%AE%B2%E8%A7%A3.md)
+#### [03.缓存优化处理](https://github.com/qianjilou/mycourses/blob/master/php/php03-3%20%E7%BC%93%E5%AD%98%E4%BC%98%E5%8C%96%E5%A4%84%E7%90%86.md)
 #### [04.设计模式](https://github.com/qianjilou/mycourses/blob/master/php/php03-4%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 
 ---
 
-### [第四阶段：项目实战 加薪扩展]()
+### [第四阶段：项目实战]()
 #### 01.实战项目
 ##### ①.模版使用 ②.无限极分类/后台代码自动生成工具 ③.权限系统建设 
 ##### ④.商品模块数据表设计 ⑤.商品类型、数据添加 ⑥.商品属性管理
