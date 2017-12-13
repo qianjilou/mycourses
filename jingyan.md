@@ -25,11 +25,11 @@
 在学习的过程中，我建议：快、快、快。少纠结、代码能跑就行。
 
 此处，推荐使用XAMPP、AppServ、PHPStudy、WampServer等工具快速安装完成，开始自己的第一段
-
+```
 <?php
 
 phpinfo();
-
+```
 ####  四、 基本语法
 环境搭建完，开始要学习的东西有以下一些东西了：变量、数据类型、注释、常量、if…else、swith…case、while、do..while、for、运算符、数组、函数、常用函数；
 
