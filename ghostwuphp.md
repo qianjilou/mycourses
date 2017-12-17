@@ -1,16 +1,16 @@
 ## PHP零基础到项目实战视频课程
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
     <tr><td>1</td><td>php 简介</td><th>:white_check_mark:</th></tr>
-    <tr><td>2</td><td>php安装与简单程序编写</td><th>white_check_mark</th></tr>
-    <tr><td>3</td><td>整数&字符串类型</td><th>white_check_mark</th></tr>
-    <tr><td>4</td><td>布尔,Null,资源,对象,数组,浮点</td><th>white_check_mark</th></tr>
-    <tr><td>5</td><td>变量的变量,变量的引用,常量</td><th>white_check_mark</th></tr>
-    <tr><td>6</td><td>操作符,运算符</td><th>white_check_mark</th></tr>
-    <tr><td>7</td><td>流程控制</td><th>white_check_mark</th></tr>
-    <tr><td>8</td><td>类型测试函数</td><th>white_check_mark</th></tr>
-    <tr><td>9</td><td>表单提交</td><th>white_check_mark</th></tr>
-    <tr><td>10</td><td>模拟登录表单作业</td><th>white_check_mark</th></tr>
-    <tr><td>11</td><td>打印素数</td><th>white_check_mark</th></tr>
+    <tr><td>2</td><td>php安装与简单程序编写</td><th>:white_check_mark:</th></tr>
+    <tr><td>3</td><td>整数&字符串类型</td><th>:white_check_mark:</th></tr>
+    <tr><td>4</td><td>布尔,Null,资源,对象,数组,浮点</td><th>:white_check_mark:</th></tr>
+    <tr><td>5</td><td>变量的变量,变量的引用,常量</td><th>:white_check_mark:</th></tr>
+    <tr><td>6</td><td>操作符,运算符</td><th>:white_check_mark:</th></tr>
+    <tr><td>7</td><td>流程控制</td><th>:white_check_mark:</th></tr>
+    <tr><td>8</td><td>类型测试函数</td><th>:white_check_mark:</th></tr>
+    <tr><td>9</td><td>表单提交</td><th>:white_check_mark:</th></tr>
+    <tr><td>10</td><td>模拟登录表单作业</td><th>:white_check_mark:</th></tr>
+    <tr><td>11</td><td>打印素数</td><th>:white_check_mark:</th></tr>
     <tr><td>12</td><td>函数定义&执行流程</td><th></th></tr>
     <tr><td>13</td><td>变量作用域</td><th></th></tr>
     <tr><td>14</td><td>引用参数,默认参数,可变参数</td><th></th></tr>
@@ -86,9 +86,9 @@
     <tr><td>85</td><td>jQuery_ajax方法三级联动</td><th></th></tr>
     <tr><td>86</td><td>jQuery_ajax_post方法三级联动</td><th></th></tr>
     <tr><td>87</td><td>图片缩放,裁剪,加水印</td><th></th></tr>
-    <tr><td>88</td><td>smarty配置及变量,一维数组读取的原理分析</td><th>white_check_mark</th></tr>
-<tr><td>89</td><td>smarty基本用法</td><th>white_check_mark</th></tr>
-<tr><td>90</td><td>smarty分离三级联动</td><th>white_check_mark</th></tr>
+    <tr><td>88</td><td>smarty配置及变量,一维数组读取的原理分析</td><th>:white_check_mark:</th></tr>
+<tr><td>89</td><td>smarty基本用法</td><th>:white_check_mark:</th></tr>
+<tr><td>90</td><td>smarty分离三级联动</td><th>:white_check_mark:</th></tr>
 <tr><td>91</td><td>信息管理系统 前端首页smarty改造</td><th></th></tr>
 <tr><td>92</td><td>信息管理系统 前端首页smarty改造2</td><th></th></tr>
 <tr><td>93</td><td>信息管理系统 前端分类页，详情页，面包屑导航smarty改造3</td><th></th></tr>
