@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>这是第一个smarty页面</title>
+</head>
+<body>
+	<h3>{$title}</h3>	
+	<h3>{$title}</h3>	
+	<h3>{$title}</h3>	
+	<h3>{$title}</h3>	
+	<h3>姓名列表:</h3>
+	<ul>
+		<li>{$userInfo['bajie']}</li>
+		<li>{$userInfo['wukong']}</li>
+		<li>{$userInfo['bailongma']}</li>
+	</ul>
+	<ul>
+		<li>{$userInfo.bajie}</li>
+		<li>{$userInfo.wukong}</li>
+		<li>{$userInfo.bailongma}</li>
+	</ul>
+	<ul>
+		{foreach $userInfo as $k => $v}
+		<li>{$k} ----> {$v}</li>
+		{/foreach}
+	</ul>
+	<ul>
+		{foreach $userList as $k => $v}
+		<li>{$k}
+			<ul>
+				{foreach $v as $k2 => $v2 }
+				<li>{$v2}</li>
+				{/foreach}
+			</ul>
+		</li>
+		{/foreach}
+	</ul>
+	<hr>
+	{if $a gt $b}
+	{$a}大于{$b}
+	{else}
+	{$a}小于或者等于{$b}
+	{/if}
+	<hr>
+
+	{if isset($a)}
+	{$a}设置了
+	{else}
+	a不存在
+	{/if}
+	
+	{if isset($smarty.get.page)}
+	{$smarty.get.page}
+	{/if}
+
+	{$smarty.session.admin}
+
+</body>
+</html>
