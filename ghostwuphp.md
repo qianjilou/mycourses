@@ -1,6 +1,6 @@
 ## PHP零基础到项目实战视频课程
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
-    <tr><td>1</td><td>php 简介</td><th>white_check_mark</th></tr>
+    <tr><td>1</td><td>php 简介</td><th>:white_check_mark:</th></tr>
     <tr><td>2</td><td>php安装与简单程序编写</td><th>white_check_mark</th></tr>
     <tr><td>3</td><td>整数&字符串类型</td><th>white_check_mark</th></tr>
     <tr><td>4</td><td>布尔,Null,资源,对象,数组,浮点</td><th>white_check_mark</th></tr>
