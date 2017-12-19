@@ -1,56 +1,66 @@
-## php 学习笔记
+## PHP零基础到项目实战视频课程
 
-### 第一阶段：web前端基础
-#### 01.html+css
-#### 02.javascript
-#### 03.jquery
+### 第二阶段：核心编程
 
----
+<table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
+    <tr><td>1、搭建环境</td><td>PHP简介、WEB程序的访问流程、安装Apache、MySQL、PHP、配置虚拟主机 </td><th>:white_check_mark:</th></tr>
+    <tr><td>2、PHP基础</td><td>变量和常量、数据类型、运算符、流程控制、函数、字符串、数组</td><th>:white_check_mark:</th></tr>
+    <tr><td>3、MySQL数据库</td><td>MySQL简介、基础SQL操作、字符集、列类型、类属性、表关系、高级查询、外键、范式、视图、事务、触发器、存储过程</td><th>:white_check_mark:</th></tr>
+    <tr><td>4、表单传值</td><td>表单传值的方式、PHP接收数据的三种方式、PHP处理复选框数据、文件上传</td><th>:white_check_mark:</th></tr>
+    <tr><td>5、MySQL扩展</td><td>基本操作、执行增删改操作、执行查询操作、与MySQL相关的函数、MySQL扩展应用案例</td><th>:white_check_mark:</th></tr>
+    <tr><td>6、HTTP协议</td><td>HTTP协议概念、HTTP协议的特点、HTTP协议的分类、HTTP请求、HTTP响应、HTTP状态码、PHP模拟HTTP请求</td><th>:white_check_mark:</th></tr>
+    <tr><td>7、文件编程</td><td>文件操作的分类、目录操作、文件操作、文件下载</td><th>:white_check_mark:</th></tr>
+    <tr><td>8、会话技术</td><td>会话技术概述、Cookie与Session的区别、Cookie原理、Cookie操作、Session原理、Session操作、垃圾回收机制</td><th>:white_check_mark:</th></tr>
+</table>
 
-### 第二阶段：php基础 php+mysql
-#### 01.php 基础
-##### (简介、语法、变量、运算符、流程控制语句与函数、数组与数据结构、字符串处理与正则表达式的应用、面向对象的程序设计)
-#### 02.mysql基础
-#### 03.php + mysql
-#### 04.阶段提升
+### 第二阶段：核心编程
 
----
+<table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
+    <tr><td>1、搭建环境</td><td>PHP简介、WEB程序的访问流程、安装Apache、MySQL、PHP、配置虚拟主机 </td><th>:white_check_mark:</th></tr>
+    <tr><td>2、PHP基础</td><td>变量和常量、数据类型、运算符、流程控制、函数、字符串、数组</td><th>:white_check_mark:</th></tr>
+    <tr><td>3、MySQL数据库</td><td>MySQL简介、基础SQL操作、字符集、列类型、类属性、表关系、高级查询、外键、范式、视图、事务、触发器、存储过程</td><th>:white_check_mark:</th></tr>
+    <tr><td>4、表单传值</td><td>表单传值的方式、PHP接收数据的三种方式、PHP处理复选框数据、文件上传</td><th>:white_check_mark:</th></tr>
+    <tr><td>5、MySQL扩展</td><td>基本操作、执行增删改操作、执行查询操作、与MySQL相关的函数、MySQL扩展应用案例</td><th>:white_check_mark:</th></tr>
+    <tr><td>6、HTTP协议</td><td>HTTP协议概念、HTTP协议的特点、HTTP协议的分类、HTTP请求、HTTP响应、HTTP状态码、PHP模拟HTTP请求</td><th>:white_check_mark:</th></tr>
+    <tr><td>7、文件编程</td><td>文件操作的分类、目录操作、文件操作、文件下载</td><th>:white_check_mark:</th></tr>
+    <tr><td>8、会话技术</td><td>会话技术概述、Cookie与Session的区别、Cookie原理、Cookie操作、Session原理、Session操作、垃圾回收机制</td><th>:white_check_mark:</th></tr>
+</table>
 
-### 第三阶段：php中级
-#### [01.php语言进阶](https://github.com/qianjilou/mycourses/blob/master/php/php03-1%20php%E8%AF%AD%E8%A8%80%E8%BF%9B%E9%98%B6.md)
-(MySQLi扩展、PDO数据抽象层、)
-#### [02.MVC框架讲解](https://github.com/qianjilou/mycourses/blob/master/php/php03-2%20MVC%E6%A1%86%E6%9E%B6%E8%AE%B2%E8%A7%A3.md)
-#### [03.缓存优化处理](https://github.com/qianjilou/mycourses/blob/master/php/php03-3%20%E7%BC%93%E5%AD%98%E4%BC%98%E5%8C%96%E5%A4%84%E7%90%86.md)
-#### [04.设计模式](https://github.com/qianjilou/mycourses/blob/master/php/php03-4%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+### 第三阶段：高级应用
 
----
+<table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
+    <tr><td>1、搭建环境</td><td>PHP简介、WEB程序的访问流程、安装Apache、MySQL、PHP、配置虚拟主机 </td><th>:white_check_mark:</th></tr>
+    <tr><td>2、PHP基础</td><td>变量和常量、数据类型、运算符、流程控制、函数、字符串、数组</td><th>:white_check_mark:</th></tr>
+    <tr><td>3、MySQL数据库</td><td>MySQL简介、基础SQL操作、字符集、列类型、类属性、表关系、高级查询、外键、范式、视图、事务、触发器、存储过程</td><th>:white_check_mark:</th></tr>
+    <tr><td>4、表单传值</td><td>表单传值的方式、PHP接收数据的三种方式、PHP处理复选框数据、文件上传</td><th>:white_check_mark:</th></tr>
+    <tr><td>5、MySQL扩展</td><td>基本操作、执行增删改操作、执行查询操作、与MySQL相关的函数、MySQL扩展应用案例</td><th>:white_check_mark:</th></tr>
+    <tr><td>6、HTTP协议</td><td>HTTP协议概念、HTTP协议的特点、HTTP协议的分类、HTTP请求、HTTP响应、HTTP状态码、PHP模拟HTTP请求</td><th>:white_check_mark:</th></tr>
+    <tr><td>7、文件编程</td><td>文件操作的分类、目录操作、文件操作、文件下载</td><th>:white_check_mark:</th></tr>
+    <tr><td>8、会话技术</td><td>会话技术概述、Cookie与Session的区别、Cookie原理、Cookie操作、Session原理、Session操作、垃圾回收机制</td><th>:white_check_mark:</th></tr>
+</table>
 
-### [第四阶段：项目实战]()
-#### 01.实战项目
-##### ①.模版使用 ②.无限极分类/后台代码自动生成工具 ③.权限系统建设 
-##### ④.商品模块数据表设计 ⑤.商品类型、数据添加 ⑥.商品属性管理
-##### ⑦.商品修改 ⑧.文章跟广告模块 ⑨.ajax操作 
-##### ⑩.首页数据获取⑪.前端优化、注册、邮箱验证⑫.登录日志、忘记密码、评论加载
+### 第四阶段：项目实战
 
-#### 02.进阶拓展
-##### web前端扩展
-##### Mysql
-##### linux
-##### php进阶扩展
-##### 大型网站项目优化
-##### 02.web应用安全
+<table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
+    <tr><td>1、搭建环境</td><td>PHP简介、WEB程序的访问流程、安装Apache、MySQL、PHP、配置虚拟主机 </td><th>:white_check_mark:</th></tr>
+    <tr><td>2、PHP基础</td><td>变量和常量、数据类型、运算符、流程控制、函数、字符串、数组</td><th>:white_check_mark:</th></tr>
+    <tr><td>3、MySQL数据库</td><td>MySQL简介、基础SQL操作、字符集、列类型、类属性、表关系、高级查询、外键、范式、视图、事务、触发器、存储过程</td><th>:white_check_mark:</th></tr>
+    <tr><td>4、表单传值</td><td>表单传值的方式、PHP接收数据的三种方式、PHP处理复选框数据、文件上传</td><th>:white_check_mark:</th></tr>
+    <tr><td>5、MySQL扩展</td><td>基本操作、执行增删改操作、执行查询操作、与MySQL相关的函数、MySQL扩展应用案例</td><th>:white_check_mark:</th></tr>
+    <tr><td>6、HTTP协议</td><td>HTTP协议概念、HTTP协议的特点、HTTP协议的分类、HTTP请求、HTTP响应、HTTP状态码、PHP模拟HTTP请求</td><th>:white_check_mark:</th></tr>
+    <tr><td>7、文件编程</td><td>文件操作的分类、目录操作、文件操作、文件下载</td><th>:white_check_mark:</th></tr>
+    <tr><td>8、会话技术</td><td>会话技术概述、Cookie与Session的区别、Cookie原理、Cookie操作、Session原理、Session操作、垃圾回收机制</td><th>:white_check_mark:</th></tr>
+</table>
 
----
+### 第五阶段：扩展技术
 
-### [第五阶段：兴趣扩展]()
-#### 01.phpcms 模型解析 + 二次开发
-#### 02.dedecms 模型解析 + 二次开发
-#### 03.yii2.0 框架讲解 + 实战
-#### 04.ci 框架讲解+ 实战
-#### 05.laravel 框架讲解 + 实战
-#### 06.基于discuz快速建站全程讲解
-#### 07.ecshop独立网店二次开发
-#### 08.微信基础 + 高级 + 开发
-#### 09.php服务器扩展
-#### 10.玩转Sphinx搜索引擎
-
+<table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
+    <tr><td>1、搭建环境</td><td>PHP简介、WEB程序的访问流程、安装Apache、MySQL、PHP、配置虚拟主机 </td><th>:white_check_mark:</th></tr>
+    <tr><td>2、PHP基础</td><td>变量和常量、数据类型、运算符、流程控制、函数、字符串、数组</td><th>:white_check_mark:</th></tr>
+    <tr><td>3、MySQL数据库</td><td>MySQL简介、基础SQL操作、字符集、列类型、类属性、表关系、高级查询、外键、范式、视图、事务、触发器、存储过程</td><th>:white_check_mark:</th></tr>
+    <tr><td>4、表单传值</td><td>表单传值的方式、PHP接收数据的三种方式、PHP处理复选框数据、文件上传</td><th>:white_check_mark:</th></tr>
+    <tr><td>5、MySQL扩展</td><td>基本操作、执行增删改操作、执行查询操作、与MySQL相关的函数、MySQL扩展应用案例</td><th>:white_check_mark:</th></tr>
+    <tr><td>6、HTTP协议</td><td>HTTP协议概念、HTTP协议的特点、HTTP协议的分类、HTTP请求、HTTP响应、HTTP状态码、PHP模拟HTTP请求</td><th>:white_check_mark:</th></tr>
+    <tr><td>7、文件编程</td><td>文件操作的分类、目录操作、文件操作、文件下载</td><th>:white_check_mark:</th></tr>
+    <tr><td>8、会话技术</td><td>会话技术概述、Cookie与Session的区别、Cookie原理、Cookie操作、Session原理、Session操作、垃圾回收机制</td><th>:white_check_mark:</th></tr>
+</table>
