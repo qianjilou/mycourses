@@ -17,6 +17,7 @@
     <tr><td>12、Smarty</td><td>Smarty概述、模板设计、程序设计</td><th>:white_check_mark:</th></tr>
     <tr><td>13、MVC设计模式</td><td>MVC设计模式、搭建自定义MVC框架</td><th>:white_check_mark:</th></tr>
     <tr><td>14、博客项目</td><td>项目开发流程、数据表数据、后台实现、前台实现、扩展功能</td><th>:white_check_mark:</th></tr>
+</table>
 
 ### 第三阶段：高级应用
 
