@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	{$script|escape}<br>
+	<a href="index.php?name={$book|escape:'url'}">点击购买</a><br>
+	
+	字符串截取：{$str|truncate:15:'...':false:true}<br>
+	{$articleTitle|truncate:30:"..."}
+	
+</body>
+</html>

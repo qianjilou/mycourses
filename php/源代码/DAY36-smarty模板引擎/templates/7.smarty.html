@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		{foreach $goods as $k=>$v}
+		<tr>
+			<td>{$v['goods_id']}</td>
+			<td>{$v.goods_name}</td>
+		</tr>
+		{foreachelse}
+		<tr>
+			<td>暂时没有找到你查找的数据</td>
+		</tr>
+		{/foreach}
+	</table>
+	{for $i = 0 to 6}
+		{$i}<br>
+	{/for}
+	{for $i = 0 to 6 step=3}
+		{$i}<br>
+	{/for}
+	
+	{if $money>5000}
+		去沙河水库钓大鱼,烤着吃<br>
+	{elseif $money>3000}
+		唐家岭1日游<br>
+	{else}
+		教室里好好写代码把<br>
+	{/if}
+</body>
+</html>

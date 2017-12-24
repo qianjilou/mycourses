@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>序号</th>
+				<th>商品名称</th>
+				<th>商品价格</th>
+			</tr>
+			{foreach $goods as $v}
+    			<tr>
+    				<td>{$v.goods_id}</td>
+    				<td>{$v['goods_name']}</td>
+    				<td>{insert name="getPrice" id={$v.goods_id}}</td>
+    			</tr>
+    			{foreachelse}
+    			<tr>
+    				<td>没有找到你查找的数据</td>
+    			</tr>
+			{/foreach}
+		</table>
+	</body>	
+</html>

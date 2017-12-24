@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	当前的时间戳：{$smarty.now}<br>
+	获得常量：{$smarty.const.ROOT}<br>
+	{config_load file="img.conf"}
+	获得配置项：{$smarty.config.img_url}<br>
+	当前文件所在目录：{$smarty.current_dir}<br>
+</body>
+</html>

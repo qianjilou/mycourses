@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	将当前的时间戳转换成日期格式：{$smarty.now|date_format:'%Y-%m-%d %H:%M:%S'}<br>
+	将小写字母首字母大写：{$str|capitalize}<br>
+	将字符串整体大写：{$str|upper}<br>
+	统计字符数量：{$str|count_characters}<br>
+	默认值（如果变量为空、''）使用默认值：{$number|default:100}<br>
+	字符串缩进：<br>
+	{$str|indent:2:'-'}<br>
+	{$str|indent:2:'&nbsp;'}
+	
+</body>
+</html>
