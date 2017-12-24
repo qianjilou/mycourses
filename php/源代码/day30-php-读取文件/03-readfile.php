@@ -13,7 +13,7 @@
 		$file_size = filesize($file_full_path);
 
 		//3. 读取内容
-		/*
+		/**
 			fread: 读取一个文件的内容
 			@param stream $fp 表示文件资源
 			@param int $file_size 表示从$fp读取多少个字节.
