@@ -1,0 +1,190 @@
+
+
+--创建一张表
+
+CREATE TABLE `user300`(
+id int unsigned not null default 0,
+name varchar(64) not null default '',
+post_code char(6) not null default ''
+)charset=utf8 engine=myisam;
+
+INSERT INTO `user300` VALUES(100, '泰牛', '100089');
+
+
+--测试 char 和varchar范围
+
+CREATE TABLE `user500`(
+id int unsigned not null default 0,
+post_code char(256) not null default ''
+)charset=utf8 engine=myisam;
+
+--测试 varchar
+CREATE TABLE `user700`(
+name varchar(21845) not null default ''
+)charset=utf8 engine=myisam;
+
+
+CREATE TABLE `user900`(
+name varchar(32767) not null default ''
+)charset=gbk engine=myisam;
+
+
+
+CREATE TABLE `user901`(
+name varchar(4) not null default '',
+post char(4) not null default ''
+)charset=utf8 engine=myisam;
+
+
+insert into user901 values('北京你好', 'abcde'); 
+
+
+
+CREATE TABLE `user902`(
+name varchar(32) not null default '',
+post char(32) not null default ''
+)charset=utf8 engine=myisam;
+
+insert into user902 values('abcd ', 'abcd ');
+
+
+CREATE TABLE `user903`(
+id int,
+name varchar(32) not null default '',
+content text not null
+)charset=utf8 engine=myisam;
+
+insert into user903 values(100, '泰牛', 'abcde!北京');
+
+
+CREATE TABLE `user906`(
+id mediumint,
+name varchar(21843) not null default ''
+)charset=utf8 engine=myisam;
+
+上面的所有字段加起来 4 + 21844 * 3 + 3 = 65539 > 65535
+上面的所有字段加起来 4 + 21843 * 3 + 3 = 65536 > 65535
+
+上面的所有字段加起来 3 + 21843 * 3 + 3 = 65535 >= 65535
+
+
+CREATE TABLE `user907`(
+id mediumint,
+name varchar(20000) not null ,
+content text not null ,
+introduce text not null
+)charset=utf8 engine=myisam;
+
+
+--日期和时间类型
+
+CREATE TABLE `user908`(
+id int,
+birthday date,
+card_time datetime,
+login_time timestamp
+)charset = utf8 engine=myisam;
+
+insert into `user908` values
+(100, '2011-11-11', '2011-11-11 11:11:11', '2011-12-12 12:12:12');
+
+
+insert into `user908` values
+(100, '2011-11-11 13:13:13', '2011-11-11', '2011-12-12');
+
+
+insert into `user908` (id, birthday, card_time) values
+(200, '2011-11-11 13:13:13', '2011-11-11'); 
+
+update user908 set birthday = '2013-12-11' where id = 200;
+
+
+/*
+看一个需求:
+有一个调查表votes，需求调查人的喜好，比如(苹果, 西瓜，菠萝) 
+中去选择（可以多选）。(男，女, 保密)【单选】
+名字[非空]
+*/
+
+CREATE TABLE `votes`(
+id int unsigned not null default 1,
+hobby set('苹果','西瓜','菠萝') not null default '苹果' comment '爱好',
+sex enum('男','女', '保密') not null default '保密'
+)charset=utf8 engine=myisam;
+
+insert into `votes` values(100, '苹果' , '男');
+
+insert into `votes` values(200, '苹果,菠萝' , '男');
+
+insert into `votes` values(300, '苹果,菠萝' , 1);
+insert into `votes` values(400, '苹果,菠萝' , 3);
+
+
+insert into `votes` values(500, 1 , 3);
+insert into `votes` values(500, 2 , 3);
+
+
+--比如，请查询喜欢吃苹果的人
+
+//find_in_set('苹果', hobby) 表示在 hobby这个字段去查询有没有
+//'苹果'， 该函数返回的值就是 '苹果' 在 hobby 这个字段的第几个位置,
+//如果没有则返回0
+select * from votes where find_in_set('苹果', hobby);
+
+
+select find_in_set('苹果', hobby) from votes;
+
+/*
+
+*/
+
+create table `employee`(
+id int unsigned not null default 1 comment 'id号',
+name varchar(64) not null default '' comment '名字',
+sex enum('男', '女', '保密') not null default '保密',
+birthdy date not null comment '生日',
+entry_date date not null comment '入职时间',
+job varchar(32) not null default '' comment '工作',
+salary decimal(12,2) not null default 0.0 comment '薪水',
+resume text not null comment '介绍'
+)charset = utf8 engine=myisam;
+
+insert into `employee` values(
+100, '小妖怪', 1, '2009-11-11', '2011-11-11', 
+'巡山的', 2300.90, '大王叫我来巡山'
+);
+
+
+insert into `employee` values(
+200, '老妖怪', 1, '2004-11-11', '2006-11-11', 
+'捶背的', 22300.90, '大王叫我来捶背'
+);
+
+
+--修改表的操作
+练习
+ 在上面员工表的上增加一个image列(要求在resume后面)。
+ 修改job列，使其长度为60。
+ 删除sex列。
+ 表名改为employee。
+ 修改表的字符集为utf8
+ 列名name修改为user_name
+alter table user change column name username varchar(20);
+
+(1) 在上面员工表的上增加一个image列(要求在resume后面)
+alter table `employee` add 
+image varchar(64) not null default '' after resume;
+(2) 修改job列，使其长度为60
+alter table `employee` modify 
+job varchar(60) not null default '';
+(3) 删除sex列
+alter table `employee` drop sex;
+(4) 表名改为worker
+rename table employee to worker;
+(5) 修改表的字符集为utf8
+alter table `worker` character set utf8;
+(6) 列名name修改为user_name
+alter table `worker` change 
+name user_name varchar(64) not null default '';
+
+ 

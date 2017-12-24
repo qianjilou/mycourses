@@ -1,0 +1,182 @@
+
+
+统计一个班级共有多少学生？
+select count(*) AS nums from student;
+统计数学成绩大于90的学生有多少个？
+select count(*) AS nums from student where math>90;
+统计总分大于250的人数有多少？
+select count(*) AS nums 
+from student 
+where (math+chinese+english)>250;
+
+count(*) 和 count(列名) 的区别 [单独建表]
+
+insert into `student` values(101, '一灯大师', 40, 60, null);
+
+
+
+统计一个班级数学总成绩？
+select sum(math) from student;
+
+统计一个班级语文、英语、数学各科的总成绩
+select sum(math),sum(english),sum(chinese) from student;
+
+统计一个班级语文、英语、数学的成绩总和
+select sum(math)+sum(english)+sum(chinese) from student; //一定正确
+//可能正确(如果成绩没有null),也可能不正确(如果成绩有null),why???
+select sum(math+english+chinese) AS 总分 from student; 
+
+统计一个班级语文成绩平均分
+select round(sum(chinese)/count(*),2) AS avg_chinese from student;
+
+
+
+select avg(ifnull(math,0.0) + ifnull(english,0.0) + ifnull(chinese,0.0)) from student;
+select avg(math + english + chinese) from student;
+
+
+
+练习：
+求班级最高分和最低分
+（数值范围在统计中特别有用）
+select max(math), min(math) from stuent;
+
+
+//下面的写法是ok,但必须每个成绩，都不能null
+select max(math+english+chinese), min(math+english+chinese) from student;
+
+//下面的写法是ok,但必须每个成绩，都不能null
+select 
+max(ifnull(math,0.0)+ifnull(english,0.0)+ifnull(chinese,0.0)), 
+min(ifnull(math,0.0)+ifnull(english,0.0)+ifnull(chinese,0.0)) 
+from student;
+
+
+
+group by用于对查询的结果分组统计, (画出分组示意图)
+having子句用于限制分组显示结果.  
+?如何显示每个部门的平均工资和最高工资
+select  
+max(sal),min(sal),deptno  
+from emp 
+group by deptno;
+
+?显示每个部门的每种岗位的平均工资和最低工资（sql 1. 理解 2. 写sql）
+
+select  
+max(sal),min(sal),deptno,job  
+from emp 
+group by deptno, job;
+
+?显示平均工资低于2000的部门号和它的平均工资[别名]
+
+select  
+avg(sal) AS myavg,deptno 
+from emp 
+group by deptno
+having myavg<2000;
+
+
+--日期函数第一组--
+
+--dual 是一个亚元表，可以作为一个测试表
+select current_date() from dual;
+
+
+create table mes(id int , content varchar(256), sendtime datetime);
+
+insert into mes values(1, 'hello1', now());
+insert into mes values(2, 'hello2', now());
+insert into mes values(3, 'hello3', now());
+insert into mes values(4, 'hello4', now());
+
+查询
+显示所有留言信息，发布日期只显示 日期，不用显示时间.
+(1) select id, content, date(sendtime) from mes;
+请查询在10分钟内发布的帖子 
+(2) select * from mes where now() <= date_add(sendtime,interval 10 minute);
+
+请在mysql 的sql语句中求出 2011-11-11 和 1990-1-1 相差多少天
+(3) select datediff('2011-11-11', '1990-1-1') from dual;
+
+请用mysql 的sql语句求出你活了多少天? 
+(4) select datediff(now(), '1993-2-18') from dual;
+
+课后练习题，假设你能活100岁，请问你还能活多少天?
+(5) ???
+
+
+
+
+/*
+先看一个具体的需求:
+如果该雇员的sal  在 小于等于 500 ，给工资涨 20%
+如果该雇员的sal  在500< val<=1000 ，给工资涨 10%
+如果该雇员的sal  在1000< val<=2000 ，给工资涨 5%
+其它情况不涨工资, 使用一个select 语句搞定.
+
+*/
+
+SELECT ename, sal,
+(CASE 
+WHEN sal<=500 THEN sal*1.2 
+WHEN 500<sal and sal<=1000 THEN sal*1.1
+WHEN 1000<sal and sal<=2000 THEN sal*1.05
+ELSE sal 
+END) AS newSal FROM emp;
+
+
+
+■ 使用where子句
+	?如何显示工资高于3000的员工
+	select * from emp where sal>3000;
+	?如何查找1982.1.1后入职的员工 //日期类型是可以比较
+	select * from emp where hiredate > '1982-1-1'
+	
+	?如何显示工资在2000到2500的员工情况 // 比较运算符  between
+
+	select * from emp where sal between 2000 and 2500;
+	select * from emp where sal>=2000 and sal<=2500;
+
+■ 如何使用like操作符
+	%: 表示任意0到多个字符 _: 表示任意单个字符
+	?如何显示首字符为S的员工姓名和工资
+	select ename, sal from emp where 'S' = left(ename,1);
+	select ename, sal from emp where ename like 'S%';
+	
+	?如何显示第三个字符为大写O的所有员工的姓名和工资
+	select ename, sal from emp where ename like '__O%'
+■ 在where条件中使用in
+    ?如何显示empno为 123,345,800...的雇员情况
+    select * from emp where empno in(123,345,800);
+■ 
+    ?如何显示没有上级的雇员的情况
+    select * from emp where mgr is null;
+
+
+?查询工资高于500或是岗位为MANAGER的雇员，同时还要
+满足他们的姓名首写字母为大写的J 
+
+select * from emp where (sal > 500 or job = 'MANAGER') and ename like 'J%';
+
+
+■ 使用order by字句（示意图）
+  ?如何按照工资的从低到高的顺序显示雇员的信息
+	select * from emp order by sal;  
+  ?按照部门号升序而雇员的工资降序排列
+	select * from emp order by deptno , sal desc;
+
+
+
+按雇员的id号升序取出， 每页显示3条记录。
+请分别显示 第一页，第二页，第三页的sql语句
+
+select 列名 from 表名   LIMIT  ($pageNow-1) * $pageSize , $pageSize
+
+select * from emp order by empno  LIMIT 0 , 3;
+select * from emp order by empno  LIMIT 3 , 3;
+
+
+
+
+	
