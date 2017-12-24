@@ -21,7 +21,7 @@
     <tr><td>7、文件编程</td><td>文件操作的分类、目录操作、文件操作、文件下载</td><th>:white_check_mark:</th></tr>
     <tr><td>8、会话技术</td><td>会话技术概述、Cookie与Session的区别、Cookie原理、Cookie操作、Session原理、Session操作、垃圾回收机制</td><th>:white_check_mark:</th></tr>
     <tr><td>9、GD图像处理</td><td>GD库概述、GD画布实现、验证码、缩略图、水印图</td><th>:white_check_mark:</th></tr>
-    <tr><td>10、面向对象</td><td>面向对象概述、面向对象实现、封装、继承、多态、对象遍历、对象序列化、反射机制、命名空间</td><th>:white_check_mark:</th></tr>
+    <tr><td>10、面向对象</td><td>类与对象、构造方法、析构方法、魔术方法、静态属性与静态方法、3大特征、对象遍历、对象序列化、反射机制、命名空间</td><th>:white_check_mark:</th></tr>
     <tr><td>11、PDO扩展</td><td>PDO简介、PDO类、PDOStatement类、PDO预处理、PDO事务处理、PDO异常处理、PDO属性、封装PDO类</td><th>:white_check_mark:</th></tr>
     <tr><td>12、Smarty</td><td>Smarty概述、模板设计、程序设计</td><th>:white_check_mark:</th></tr>
     <tr><td>13、MVC设计模式</td><td>MVC设计模式、搭建自定义MVC框架</td><th>:white_check_mark:</th></tr>
