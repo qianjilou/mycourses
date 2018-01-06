@@ -14,7 +14,7 @@
 	if(file_exists($file_full_path)){
 
 		//3.打开该文件
-		/**
+		/*
 			fopen: 函数是打开一个文件，获取到文件指针(资源)
 			@param string $file_full_path 文件路径
 			@param string 'r' 以只读方式打开
