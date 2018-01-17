@@ -1,10 +1,8 @@
-# 51courses
+### 程序员
 
-51CTO及其他平台的学习内容
-
-欢迎来到我的课程
-
-
-[PHP笔记](https://github.com/qianjilou/mycourses/blob/master/php)
-
-[PHP学习经验](https://github.com/qianjilou/mycourses/blob/master/jingyan.md)
+#### 013 PHP面向对象编程
+#### 014 最新MySql入门到精通
+#### 015 Mysqli扩展和增强
+#### 017 深度剖析HTTP协议
+#### 018 预定义超全局数组
+#### 大型大型门户网站Mysql优化技术(完整版)
