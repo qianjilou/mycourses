@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> do..while </title>
+  <script type="text/javascript">
+	
+	var i =0;
+
+	do{
+		document.write("泰牛程序员<br>");
+		i++;
+	}while (i < 10);
+	
+	//使用do ...while实现 计算1+2+...n的值 
+	var n = 30;
+	//res 存放最后结果
+	var res = 0;
+	//i 是一个变化
+	var i = 1;
+	do{
+		if(i < n)
+		{
+			document.write(i + " + ");
+		}else
+		{
+			document.write(i + " = ");
+		}
+		res = res + i;
+		i++;
+		
+	}while(i <= n);
+
+	document.write(res);  
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

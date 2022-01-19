@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 全局函数的补充 </title>
+  <script type="text/javascript">
+	
+	var uri = "http://www.itbull.cn?index.php?name=泰牛&no=sn 001";
+	
+	uri = encodeURI(uri);
+
+	document.write(uri);
+	document.write("<br>");
+
+	uri = decodeURI(uri);
+	document.write(uri);
+	document.write("<br>");
+
+	//请输入一个运算表达式( 3 + 3 * (8-2) + 11)，计算其结果
+	//eval可以把一个字符串，当做脚本来运行
+	var str = "3 + 3 * (8-2) + 11";
+	var str2 = "document.write(" +str +")";
+	eval("运算结果是=" + str2);
+
+	//isNaN (is not a number?) true[不是一个数] false[就是数]
+	//如果一个字符串，可以转成一个数，则也返回一个false
+	//如果是一个数，则也返回一个false
+	//如果要求不高，我们直接用isNaN来判断是没有问题的!
+	var num = "1662";
+	alert(isNaN(num));
+	var type = typeof(num);
+	if(type == 'string'){
+		alert("不是一个数");
+	}else{
+		if(!isNaN(num))
+		{
+			alert("真的是一个数");
+		}
+	}
+  </script>
+ </head>
+ <body>
+  <a href="http://www.itbull.cn?index.php?name=泰牛&no=sn 001">点击</a>
+ </body>
+</html>

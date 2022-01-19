@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> h5的画布 </title>
+  <style type="text/css">
+	#my_canvas{
+		border:1px solid red;
+	}
+  </style>
+ 
+ </head>
+ <body>
+  <!--画布标签-->
+  <canvas width="500px" height="400px" id="my_canvas">
+
+   <script type="text/javascript">
+	//画出填充矩形
+	//1. 获取画布对象
+	var my_canvas = document.getElementById("my_canvas");
+	//alert(my_canvas);
+	//2. 获取画笔
+	var huabi = my_canvas.getContext("2d");
+	
+	//给画笔设置颜色
+	huabi.strokeStyle = "blue";
+	//3. 画出矩形, 四个参数 x,y,width,height
+	huabi.rect(100, 100 , 100, 100);
+	//stroke 划
+	huabi.stroke();
+
+	
+	//如何设置画笔的颜色 
+	huabi.fillStyle = "red";
+	//如何画出一个填充的矩形
+	huabi.fillRect(200,200, 50, 50);
+
+  </script>
+ </body>
+</html>

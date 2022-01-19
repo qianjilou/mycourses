@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 数组 </title>
+  <script type="text/javascript">
+	//上午讲的数组和现在 Array创建的数组都是 Array对象，只是创建的方式不一样而已
+	// var my_arr = [0, 90];
+	//创建一个空数组
+	var my_arr = new Array();
+	//然后在赋值
+	my_arr[0] = 10;
+	my_arr[1] = "北京";
+	//window.alert(my_arr);
+
+	//创建数组的时候，就可以给初始值
+	var my_arr2 = new Array(10, 90, "hello");
+	//window.alert(my_arr2);
+
+	var my_arr3 = my_arr.concat(my_arr2);
+	//window.alert(my_arr3);
+
+	//这里，我们队数组进行排序，当对字符串排序是，按照字符的编码大小进行排序
+	//标准是从小到大，参考ASCII表
+	var my_arr4 = new Array("a", "b","d", "c", "ef", "ea", "A");
+	my_arr4 = my_arr4.sort();
+	//window.alert(my_arr4);
+
+	//我写的一个排序函数[回调函数]
+	function sortNumber(a,b)
+	{
+		//如果我们返回一个大于0的数, 则b排前面，从大到小
+		//如果我们返回一个小于0的数，则a排前，从小到大
+		if(parseFloat(a) < parseFloat(b))
+		{
+			//判断...
+			return 1;
+		}else
+		{
+			return -1;
+		}
+	}
+
+
+	var my_arr5 = new Array(1, 101,0, 20, 3);
+	my_arr5 = my_arr5.sort(sortNumber);
+	//window.alert(my_arr5);
+
+
+	function sortNumber(a,b)
+	{
+		return b - a
+	}
+
+	var arr = new Array(6)
+	arr[0] = "10"
+	arr[1] = "5"
+	arr[2] = "40"
+	arr[3] = "25"
+	arr[4] = "1000"
+	arr[5] = "1"
+
+	document.write(arr + "<br />")
+	document.write(arr.sort(sortNumber))
+
+
+
+
+
+
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

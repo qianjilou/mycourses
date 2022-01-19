@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 百炼成钢 </title>
+  <style type="text/css">
+	#div1{
+		width:200px;
+		height:300px;
+		border:1px solid black;
+	}
+
+  </style>
+  <script type="text/javascript">
+	function change(val)
+	{
+		if(val == "big")
+		{
+			//1得到div对象  【属性和方法】
+			var div_obj = document.getElementById("div1");
+			//2修改div的width和height
+			div_obj.style.width = "300px";
+			div_obj.style.backgroundColor = "red";
+
+		}else if(val == "small")
+		{
+			//1得到div对象  【属性和方法】
+			var div_obj = document.getElementById("div1");
+			//2修改div的width和height
+			div_obj.style.width = "100px";
+		}else if(val == "img_big")
+		{
+			//1.得到图片对象
+			var img_obj = document.getElementById("niu");
+			//2.变大
+			//第一种通过css来控制
+			img_obj.style.width = "200px";
+			//第二种通过属性控制
+			img_obj.width = 200;
+		}
+	}
+  </script>
+ </head>
+ <body>
+ <input type="button" value="变大" onclick="change('big')">
+ <input type="button" value="变小" onclick="change('small')">
+ <input type="button" value="图片变大" onclick="change('img_big')">
+ <input type="button" value="图片变小" onclick="change('img_small')">
+  <div id="div1">
+  div
+  </div>
+  <img src="niu.png" id="niu" width="100px">
+ </body>
+</html>

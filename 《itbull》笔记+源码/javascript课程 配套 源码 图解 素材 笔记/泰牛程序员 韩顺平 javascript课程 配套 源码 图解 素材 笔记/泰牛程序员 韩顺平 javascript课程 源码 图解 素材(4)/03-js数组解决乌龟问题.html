@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 数组解决 乌龟问题 </title>
+  <script type="text/javascript">
+
+	//定义一个数组
+	var wg_weight_arr = [3, 10, 90, 23, 45, 3, 3, 10, 90, 23, 45, 3,3, 10, 90, 23, 45, 3];
+	
+	//数组包含的数据个数
+	var wg_weight_arr_size = wg_weight_arr.length;
+	window.alert(wg_weight_arr_size);
+	var total_weight = 0;
+	//遍历数组
+	for (var i = 0; i < wg_weight_arr_size; i++)
+	{
+		//怎样取出数组中，每个数据
+		//window.alert(wg_weight_arr[i]);
+		total_weight += wg_weight_arr[i];
+	}
+	window.alert("总体重 " + total_weight + "平均体重" + total_weight/wg_weight_arr_size);
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

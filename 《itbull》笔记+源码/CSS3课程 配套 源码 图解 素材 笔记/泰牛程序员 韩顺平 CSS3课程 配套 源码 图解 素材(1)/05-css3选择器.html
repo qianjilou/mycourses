@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> css3的选择器 </title>
+	<style type="text/css">
+		input[class]{
+			background-color:green;
+		}
+		/*表示选择input 元素含义 class属性，并且class值为classno3*/
+		input[class="classno3"]{
+			background-color:red;
+		}
+
+		input[name^=tom]{
+			background-color:black;
+		}
+		
+		input[name$=no1]{
+			background-color:pink;
+		}
+		input[name*=m]{
+			background-color:blue;
+		}
+	</style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <input type="text" value="tom" name="tomno1" class="classno1"><br>
+  <input type="text" value="jack" name="jackno1" class="classno2"><br>
+  <input type="text" value="mary" name="maryno1"class="classno3"><br>
+  <input type="text" value="hsp" name="hspno1" class="classno4"><br>
+  <p>测试文字</p>
+ </body>
+</html>

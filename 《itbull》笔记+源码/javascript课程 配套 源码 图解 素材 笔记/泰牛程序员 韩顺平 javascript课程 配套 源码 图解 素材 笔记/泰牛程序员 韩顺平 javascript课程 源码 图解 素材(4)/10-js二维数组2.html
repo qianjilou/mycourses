@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> New Document </title>
+  <script type="text/javascript">
+  /*
+  课堂练习案例，请用二维数组输出如下图形
+	0 0 0 0 0 0
+	0 0 1 0 0 0	
+	0 2 0 3 0 0
+	0 0 0 0 0 0
+  */
+  var arr = [[0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0]];
+  //二维数组遍历, 先死后活
+  //获取二维数组的元素个数（第一层）
+  var arr_len1 = arr.length;
+ 
+  for(var i = 0; i < arr_len1; i++)
+  {
+	  var arr_len2 = arr[i].length;
+	  //遍历列
+	  for(var j = 0; j < arr_len2; j++)
+	  {
+		  document.write(arr[i][j] + " ");
+	  }
+	  document.write("<br>");
+  }
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 多个类选择器修饰同一个html元素 </title>
+  <style type="text/css">
+	/*当优先级相同的情况下，在发生冲突时，以写在style内容中的后面那个为准*/
+	.class1{
+		text-decoration:underline;
+		color:black;
+		font-size:30px;
+	}
+	.class2{
+		font-style:italic;
+		font-size:50px;
+		
+	}
+  </style>
+ </head>
+ <body>
+  <p class="class2 class1">新闻三</p>
+ </body>
+</html>

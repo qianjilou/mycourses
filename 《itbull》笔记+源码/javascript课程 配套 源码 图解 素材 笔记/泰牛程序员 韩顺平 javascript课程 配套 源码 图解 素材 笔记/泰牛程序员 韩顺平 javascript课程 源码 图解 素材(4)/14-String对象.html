@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> String对象 </title>
+  <script type="text/javascript">
+	var str = "tainiu 泰牛!";
+
+	//返回某个字符串值在该字符串中首次出现的位置
+	var p1 = str.indexOf("泰牛");
+	window.alert(p1);
+	
+	//substr 从第几个位置取，取出几个字符
+	var sub_str = str.substr(7, 2);//取出泰牛
+	sub_str = str.substr(7);//取出泰牛! 从第7个位置开始取，直到最后
+	//取出 niu ,表示从倒数的第7位置取出，向后取3个字符
+	sub_str = str.substr(-7, 3);
+	sub_str = str.substr(-7);
+	sub_str = str.substr(30, 4);//如果范围不对，则是 ""串
+	
+
+	//substring表示从第几个位置开始取，取到第几个位置-1
+
+	sub_str = str.substring(0, 1);
+	sub_str = str.substring(0); //从这个位置开始取到最后.
+	//window.alert(sub_str);
+
+	/**
+
+	var str = "hello,world 泰牛!";
+
+	请使用 substr  提取 "泰牛"
+	请使用substring 提取world
+	
+
+	*/
+	var str = "hello,world 泰牛!";
+	sub_str = str.substr(12, 2);
+	//window.alert(sub_str);
+	sub_str = str.substring(6, 11);
+	//window.alert(sub_str);
+
+
+	var str = "abc,hello";
+	sub_str = str.charAt(0);
+	window.alert(sub_str);
+
+	//charCodeAt会返回对应字符的unicode码(包含ASCii)
+	sub_str = str.charCodeAt(0);
+	window.alert(sub_str);
+
+	window.alert(str.length);
+	window.alert(str[3]);
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

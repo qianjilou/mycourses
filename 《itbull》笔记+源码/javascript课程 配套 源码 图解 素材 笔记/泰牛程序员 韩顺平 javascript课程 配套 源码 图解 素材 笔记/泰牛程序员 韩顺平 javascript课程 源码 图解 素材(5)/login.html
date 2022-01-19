@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 登录页面 </title>
+  <script type="text/javascript">
+  function checkUser()
+  {
+	  //介绍一个在表单中，简单的得到输入框和密码框的值
+	  if(loginform.userName.value  == "顺平" && 
+		 loginform.password.value == "123")
+	  {
+		//跳转到下一个页面
+		window.open("loginOk.html","_self");
+	  }else
+	  {
+		  window.alert("用户名或者密码不正确!");
+		  loginform.userName.value = "";
+		  loginform.password.value = "";
+	  }
+   }
+  </script>
+ </head>
+ <body>
+  <form name="loginform" action="#" method="">
+	用户名：<input type="text" value="" name="userName"><br>
+	密　码：<input type="password" value="" name="password"><br>
+	<input type="button" value="点击登录" onclick="checkUser()">
+  </form>
+
+ </body>
+</html>

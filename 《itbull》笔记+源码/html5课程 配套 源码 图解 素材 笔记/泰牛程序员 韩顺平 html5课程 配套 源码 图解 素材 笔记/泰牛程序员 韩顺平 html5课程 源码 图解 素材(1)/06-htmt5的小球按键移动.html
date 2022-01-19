@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 小球按键移动 </title>
+ 
+ </head>
+ <body onkeydown="moveBall(event)">
+  <canvas id="my-canvas" width="500px" height="400px" style="border:1px solid red" >
+  <script type="text/javascript">
+	//1.先得到这个画布，然后画出红色的小球
+	var my_canvas = document.getElementById("my-canvas");
+	var my_huabi = my_canvas.getContext("2d");
+
+	//需要定义两个变量,分别是小球的横坐标和纵坐标
+	var ball_x = 50;
+	var ball_y = 50;
+	var ball_r = 20;
+
+	//调用一下画出小球的函数
+	drawBall(ball_x, ball_y);
+	
+	function drawBall(x, y)
+	{
+		//给画笔颜色
+		my_huabi.fillStyle = "red";
+		my_huabi.beginPath();
+		my_huabi.arc(x, y, ball_r, 0, 2 * Math.PI);
+		my_huabi.fill();
+	}
+
+	//2.编写一个函数，可以处理按键的事件[asdw]
+	function moveBall(event)
+	{
+		
+		//通过switch来判断用户的需求
+		switch(event.keyCode)
+		{
+			case 83:  //向下
+				//判断ball_y是否已经到了最下的边界
+				if(ball_y < 400 - ball_r)
+				{
+					ball_y++;
+				}
+				break;
+		}
+		//先清除一下画布
+		my_huabi.clearRect(0,0,500,400);
+		drawBall(ball_x, ball_y);
+	}
+  </script>
+ </body>
+</html>

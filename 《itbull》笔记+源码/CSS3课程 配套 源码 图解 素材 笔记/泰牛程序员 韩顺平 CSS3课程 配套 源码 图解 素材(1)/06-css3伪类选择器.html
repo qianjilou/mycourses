@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> css3新增的伪类选择器 </title>
+  <style type="text/css">
+	/*选中*/
+	:root{
+		color:pink;
+	}
+	/*选择li元素的父元素的第一个子元素*/
+	li:first-child{
+		color:red;
+	}
+
+	li:last-child{
+		color:blue;
+	}
+	/*选择li元素的父元素的第二个子元素*/
+	li:nth-child(2){
+		color:green;
+	}
+	
+	/*选择li元素的父元素的倒数的第三个子元素*/
+	li:nth-last-child(3){
+		color:yellow;
+	}
+
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <ul>
+	<li>AAAA</li>
+	<li>BBBB</li>
+	<li>CCCC</li>
+  </ul>
+
+  <ul>
+	<li>DDDD</li>
+	<li>EEEE</li>
+  </ul>
+
+  <ul>
+	<li>FFFF</li>
+  </ul>
+ </body>
+</html>

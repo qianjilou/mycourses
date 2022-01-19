@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 第二种绑定事件的方式 </title>
+ <script type="text/javascript">
+
+	//windo.onload = test 表示，当页面全部加载完毕后，有浏览器去自动的
+	//调用 test函数 init就是初始化的意思
+	window.onload = init;
+	
+	function init()
+	{
+		//获取button1对象, 并绑定了 onclick事件
+		//基本语法就是 
+		/*
+			document.getElementById("button1").事件名称 = 函数名;
+		*/
+		document.getElementById("button1").onclick=test;
+	}
+
+	alert(test);
+	
+	function test()
+	{
+		alert("ok");
+	}
+  </script>
+ </head>
+ <body>
+  <input type="button" value="点击" id="button1">
+ 
+ </body>
+</html>

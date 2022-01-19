@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 事件驱动的引入 </title>
+  <script type="text/javascript">
+	//编写一个函数，来响应用户点击的动作
+	function sayHello(event)
+	{
+		alert("sayHello 100");
+		alert(event);
+		for(var key in event)
+		{
+			document.write(key + "&nbsp;&nbsp;&nbsp;&nbsp;" + event[key] + "<br>");
+		}
+	}
+  </script>
+ </head>
+ <body>
+  <input type="button" value="点击我吧" name="mybutton" onclick="sayHello(event)">
+  <select name="city">
+	<option value="bj">北京</option>
+	<option value="bj">天津</option>
+	<option value="bj">上海</option>
+  </select>
+ </body>
+</html>

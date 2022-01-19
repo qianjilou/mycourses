@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> css3的表格布局，文字居中 </title>
+  <style type="text/css">
+	#content{
+		width:400px;
+		height:300px;
+		border:1px solid red;
+		margin:100px auto;
+		/*首先在父元素上指定display:table*/
+		display:table;
+
+	}
+	#article{
+		text-align:center;
+		/*相当于把 #article 当做一个<td> 或者<th>*/
+		display:table-cell;
+		vertical-align:middle;
+		border:1px solid blue;
+
+	}
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="content">
+		<div id="article">
+			笑傲江湖<br>
+			笑傲江湖<br>
+			笑傲江湖<br>
+			笑傲江湖<br>
+		</div>
+  </div>
+ </body>
+</html>

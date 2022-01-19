@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 登录页面 </title>
+ </head>
+ <body>
+  <h1>登录页面</h1>
+  <!--表单的基本用法
+	action="loginOk.html" 表示，把表单的数据提交给loginOk.html页面
+	method="get" 表单，提交数据的方式是以get 方式提交
+	<input type="text" name="user_name"> 表示一个text的文本框 name 给文本框取名
+	密　码：<input type="password" name="user_pass"> 表示一个密码框，当输入数据时，是以密码的方式显示. 
+	
+	<input type="submit" value="点击登录"> 这个是一个提交按钮,当用户点击这个按钮时，浏览器就会把这个表单的数据提交给 action指向的文件
+	<input type="reset" value="重新填写"> 这个是一个重置按钮，当用户点击这个按钮时，浏览器就会把这个表单的数据清空
+  -->
+	<form action="loginOk.html" method="get">
+
+	用户名：<input type="text" name="user_name"><br>
+	密　码：<input type="password" name="user_pass"><br>
+	<input type="submit" value="点击登录"> <input type="reset" value="重新填写">
+	</form>
+	
+ </body>
+</html>

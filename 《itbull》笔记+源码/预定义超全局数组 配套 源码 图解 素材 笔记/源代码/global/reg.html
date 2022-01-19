@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 注册用户页面 </title>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+<form action="doReg.php" method="post">
+你喜欢的旅游:
+<input type="checkbox" name="hobby[]" value="ql"/>骑驴
+<input type="checkbox" name="hobby[]" value="北京哈"/>北京
+<input type="checkbox" name="hobby[]" value="tianjing"/>天津<br/>
+你的性别:
+<input type="radio" name="sex" value="female"/>女
+<input type="radio" name="sex" value="male"/>男<br/>
+你的籍贯:
+<select name="jiguan">
+<option value="sichuan">四川</option>
+<option value="北京">北京</option>
+<option value="天津">天津</option>
+<option value="重庆">重庆</option>
+</select><br>
+你的名字:<input type="text" name="username"><br>
+你的邮箱:<input type="text" name="email"><br>
+你的密码:<input type="password" name="pwd"><br>
+个人介绍:<textarea rows="10" cols="20" name="jieshao">输入点内容..</textarea><br>
+你的头像:<input type="file" name="head" ><br>
+<input type="submit" name="mybutton" value="tesing1"/>
+<input type="submit" name="mybutton" value="tesing2"/>
+</form>
+
+ </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> test </title>
+  <style type="text/css">
+	#div1{
+		background-color:pink;
+		width:100px;
+		height:100px;
+	}
+  </style>
+  <script type="text/javascript">
+	
+	//浏览器的兼容
+  var ocssRules = document.styleSheets[0].cssRules||document.styleSheets[0].rules;
+
+	
+
+  alert(ocssRules[0].style.backgroundColor);
+  alert(ocssRules[0].style.width);
+	
+	ocssRules[0].style.backgroundColor = "black";
+//	ocssRules[0].style.backgroundColor = "red";
+	
+  </script>
+  <div id="div1">
+  </div>
+ </head>
+ <body>
+  
+ </body>
+</html>

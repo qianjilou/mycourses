@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> div </title>
+  <style type="text/css">
+	/*思路*/
+	#div1{
+		width: 200px;
+		height:200px;
+		background:pink;
+		/*当div的内容，不能完全显示时，就出现滚动条*/
+		overflow:scroll;
+	}
+  </style>
+  <script type="text/javascript">
+		function test()
+		{
+			//每个元素都有一个属性scrollTop , 这个值就是滚动条的坐标
+			//先获取div元素
+			var div_obj = document.getElementById("div1");
+			alert(div_obj.scrollTop);
+		}
+  </script>
+ </head>
+ <body>
+  <div id="div1" onclick="test()">
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  hello,wrold!<br>
+  </div>
+ </body>
+</html>

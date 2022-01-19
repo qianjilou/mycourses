@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 变量的作用域 </title>
+  <script type="text/javascript">
+	
+	//这样的定义就是一个全局变量(明确定义),全局变量可以在函数内部使用
+	var num1 = 100;
+	//num2 = 200;也是一个全局变量,不推荐
+	num2 = 200;
+	
+	window.alert("num1 = " + num1);
+	window.alert("num2 = " + num2);
+	var b = 900;
+	function sayHello()
+	{
+		//a是局部变量，只能在函数内部使用;
+		var a = 100;
+		//b是一种隐式定义全局变量的方式,不推荐
+		b = 90;
+		window.alert("a = " + a);
+		window.alert("b =" + b);
+		window.alert(" sayHello() num1 =" +num1);
+
+	}
+	window.alert("ok1 = " + b);
+	sayHello();
+	window.alert("ok2 = " + b);
+	
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

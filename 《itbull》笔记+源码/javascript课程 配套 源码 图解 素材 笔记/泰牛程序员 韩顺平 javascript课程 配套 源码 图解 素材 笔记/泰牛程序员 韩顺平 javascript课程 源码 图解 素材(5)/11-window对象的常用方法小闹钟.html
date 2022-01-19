@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 小闹钟 </title>
+ 
+ </head>
+ <body>
+  小闹钟：<span id="clock"></span>
+  <input type="button" value="开始计时">
+  <input type="button" value="停止计时">
+
+   <script type="text/javascript">
+	var clock_obj = document.getElementById("clock");
+	var time_now = 0;
+	var count = 0;
+	var timer_id = window.setInterval("showTime()", 1000);
+	function showTime()
+	{
+		time_now = new Date();
+		time_now = time_now.toLocaleString();
+		clock_obj.innerHTML = time_now;
+		count++;
+		if(count ==  10)
+		{
+			clearInterval(timer_id);
+		}
+
+	}
+
+	//需求是，当走了10秒钟后，就自动停止
+
+  </script>
+ </body>
+</html>

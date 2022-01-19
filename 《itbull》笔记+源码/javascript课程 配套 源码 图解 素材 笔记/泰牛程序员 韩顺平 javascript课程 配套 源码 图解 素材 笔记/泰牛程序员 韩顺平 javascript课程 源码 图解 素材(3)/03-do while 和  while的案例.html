@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 小练习 </title>
+  <script type="text/javascript">
+  /**
+	要求: 用户输入一个数字 1-12，然后显示十二生肖
+比如输入 1 就显示一个老鼠，输入 2 显示 老鼠和牛
+如果不在1-12范围，输出12个怪物!
+
+  */
+  var num = 3;
+
+  //先判断num是不是在1-12内
+  if(num>12 || num <= 0)
+  {
+	//for
+	for(var i = 1; i <= 12; i++)
+	{
+		document.write("<img src='gw.png'>");
+	}
+  }else
+  {
+	  //i的作用就是用来做循环
+	  var i = 1;
+	  while(i <= num)
+	  {
+		document.write("<img src='"+ i +".png'>");
+		//i++就用来变化值
+		i++;
+	  }
+  }
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

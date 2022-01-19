@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 登录成功 </title>
+  
+ </head>
+ <body>
+  <h1>恭喜你，登录OK</h1>
+  <span id="timer">5</span>秒后跳转到 管理页面!
+
+  <script type="text/javascript">
+
+	var timer_no = window.setInterval("countTime()", 1000);
+
+	//用来，不停修改span的值
+	function countTime()
+	{
+		var span_obj = document.getElementById("timer");
+		var timer_val = span_obj.innerHTML;
+		timer_val -= 1;
+		span_obj.innerHTML = timer_val;
+		//判断timer_val  是不是等于0
+		if(timer_val == 0)
+		{
+			//关闭定时器
+			window.clearInterval(timer_no);
+			window.open("manage.html", "_self");
+		}
+
+	}
+
+  </script>
+ </body>
+</html>

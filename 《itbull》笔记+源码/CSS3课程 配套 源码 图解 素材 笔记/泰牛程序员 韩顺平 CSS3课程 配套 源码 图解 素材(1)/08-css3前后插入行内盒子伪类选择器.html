@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>  :before :after </title>
+  <style type="text/css">
+	/*在前面插入*/
+	/*在div1这个盒子的内部前面*/
+	#div1:before{
+		width:100px;
+		height:30px;
+		background:red;
+		/**/
+		content:"DDDDD";
+		display:inline-block;
+	}
+	
+	/*在div1这个盒子的内部后面*/
+	#div1:after{
+		width:100px;
+		height:30px;
+		background:blue;
+		content:"CCCCC";
+		display:inline-block;
+	}
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="div1">AAAA,</div>
+ </body>
+</html>

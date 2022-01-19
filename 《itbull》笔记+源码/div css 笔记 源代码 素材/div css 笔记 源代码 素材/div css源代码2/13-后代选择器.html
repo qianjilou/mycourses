@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 组合选择器-后代选择器 </title>
+  <style type="text/css">
+	div h1{
+		color:green;
+		font-size:30px;
+		font-style:italic;
+	}
+	
+	div p{
+		color:silver;
+		font-size:20px;
+		font-style:italic;
+	}
+	/*
+		结论: 1. 如果我们的后代选择器的某个元素需要特别的样式，则可以 以下面形式来完成
+		      2. 标签选择器优先级 < 类选择器
+	*/
+	div p.te1{
+		color:red;
+	}
+	
+
+  </style>
+ </head>
+ <body>
+  <div>
+	<h1>笑傲江湖</h1>
+	<p>美人鱼</p>
+	<span>
+		hello!
+		<p>港囧</p>
+		<span>
+			<p class="te1">金刚</p>
+		</span>
+	</span>
+  </div>
+ </body>
+</html>

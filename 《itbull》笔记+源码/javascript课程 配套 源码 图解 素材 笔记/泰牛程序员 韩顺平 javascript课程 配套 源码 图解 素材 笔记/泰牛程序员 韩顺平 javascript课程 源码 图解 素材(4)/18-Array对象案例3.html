@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 数组的练习题 </title>
+  <script type="text/javascript">
+  //定义一个数组，输入9个任意的整数，求该数组中奇数的平均值
+
+  var  my_arr = new Array();
+  var input_val = 0;
+  var num_count = 0;
+  var sum = 0;
+  for(var i = 0; i < 9; i++)
+  {
+	  input_val = window.prompt("请输入第" + (i+1) + "个数");
+	  input_val = parseFloat(input_val);
+	  if((input_val % 2) != 0)
+	  {
+		sum += input_val;
+		num_count++;
+	  }
+	  my_arr.push(input_val);
+  }
+
+  var average = sum/num_count;
+  window.alert(my_arr + "奇数平均值 = " + average);
+
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

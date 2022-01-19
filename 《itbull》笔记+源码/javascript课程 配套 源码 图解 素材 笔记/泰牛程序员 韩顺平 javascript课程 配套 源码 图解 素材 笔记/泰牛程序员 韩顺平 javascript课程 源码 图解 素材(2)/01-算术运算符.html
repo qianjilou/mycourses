@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 算术运算符 </title>
+  <script type="text/javascript">
+	
+	//================= +  -  * / %------
+	var x = 10;
+	var y = 20;
+	var z = x + y;
+	var z2 = x - y;
+	var z3 = x * y;
+	var z4 = x / y;
+	/*window.alert(z);
+	window.alert(z2);
+	window.alert(z3);
+	window.alert(z4);*/
+
+	//请编写程序，判断两个数是否能够整除
+	var num1 = 15;
+	var num2 = 11;
+	var res = num1 % num2;
+	//window.alert(res);
+
+
+
+	///-----------------------------讲解的是 ++ 和 --
+	// ++  --
+	var num3 = 10;
+	num3++; // 等价于 num3 = num3 + 1;
+
+	//window.alert(num3);
+
+	var num4 = num3++; //  等价于 var num4 = num3; num3++; 
+	window.alert("num4=" + num4); //11 12 
+	window.alert("num3=" + num3);
+
+
+
+	var num5 = 50;
+	++num5; //等价于 num5 = num5 + 1;
+	var num6 = ++num5; 
+	window.alert("num5 = " + num5); // num5 51 52 
+	window.alert("num6 = " + num6);
+
+	var num7 = num5++;
+	window.alert("num7" + num7);
+
+	window.alert("num5" + num5);
+
+	
+
+
+
+  </script>
+ </head>
+ <body>
+  
+  
+ </body>
+</html>

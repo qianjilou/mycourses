@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 搜狐首页布局 </title>
+  <style type="text/css">
+	body{
+		margin:0px;
+		padding:0px;
+		font-size:12px;
+	}
+	#box{
+		width:950px;
+		height:500px;
+		/*background-color:pink;*/
+		margin:0 auto;
+	}
+	.top{
+		width:950px;
+		height:23px;
+		background-color:#FFF0F5;
+		line-height:23px;
+	}
+	.login{
+		width:416px;
+		height:23px;
+		float:left;
+		background:#008000;
+	}
+	.set-index{
+		width:105px;
+		height:23px;
+		float:left;
+		background:#808080;
+		margin-left:80px;
+	}
+	.img-logo{
+		width:250px;
+		height:23px;
+		float:right;
+		background:#B4B4B4;
+		
+	}
+	.user-name-style{
+		height:14px;
+	}
+	.button-style{
+		height:23px;
+		font-size:12px;
+	}
+	.web-logo{
+		width:136px;
+		height:68px;
+		margin-top:5px;
+		float:left;
+	}
+	.nav{
+		width:807px;
+		height:68px;
+		background:#7CF574;
+		float:right;
+		margin-top:5px;
+	}
+	.ad-box{
+		width:948px;
+		height:213px;
+		border:1px solid silver;
+		margin-top:5px;
+		float:left;
+	}
+	.ad-zs{
+		height:195px;
+		width:125px;
+		background-color:#FC7E8C;
+		float:left;
+		margin:8px 0 0 5px;
+	}
+	.ad-2{
+		height:195px;
+		width:454px;
+		background-color:#FC7E8C;
+		float:left;
+		margin:8px 0 0 13px;
+	}
+	.ad-house{
+		height:195px;
+		width:150px;
+		background-color:#7CF574;
+		float:left;
+		margin:8px 0 0 13px;
+	}
+	.ad-img{
+		border-left:1px solid silver;
+		float:right;
+		height:213px;
+		width:180px;
+		text-align:center;
+		
+	}
+	.ad-img img{
+		margin-top:10px;
+	}
+	.hero{
+		border:1px solid red;
+		width:140px;
+		border-collapse:collapse;
+		margin:0 auto;
+		margin-top:50px;
+	}
+	.hero td,.hero tr, .hero th{
+		border:1px solid red;
+	}
+  </style>
+ </head>
+ <body>
+  <!--放div-->
+  <div id="box">
+	<div class="top">
+		<div class="login">登录表单
+		<input class="user-name-style" type="text" name="user_name">
+		<input class="button-style" type="submit" value="登录">
+		</div>
+		<div class="set-index">设置首页</div>
+		<div class="img-logo">图片log</div>
+	</div><!--top-->
+	<div class="web-logo">
+		<img src="logo.png">
+	</div>
+	<div class="nav">
+	</div>
+	
+	<div class="ad-box">
+		<div class="ad-zs">招生广告</div>
+		<div class="ad-2">广告2</div>
+		<div class="ad-house">房地产广告</div>
+		<div class="ad-img">
+		<img src="ad2.png">
+		</div>
+	</div><!--ad-box-->
+	<div class="ad-box">
+		<div class="ad-zs">招生广告</div>
+		<div class="ad-2">广告2</div>
+		<div class="ad-house">房地产广告</div>
+		<div class="ad-img">
+		<img src="ad2.png">
+		</div>
+	</div><!--ad-box-->
+
+<div class="ad-box">
+		<div class="ad-zs">招生广告</div>
+		<div class="ad-2">广告2</div>
+		<div class="ad-house">
+		<table class="hero">
+		<tr><th>编号</th><th>姓名</th><th>外号</th></tr>
+		<tr><td>001</td><td>宋江</td><td>及时雨</td></tr>
+		<tr><td>001</td><td>宋江</td><td>及时雨</td></tr>
+		<tr><td>001</td><td>宋江</td><td>及时雨</td></tr>
+		</table>
+		</div>
+		<div class="ad-img">
+		<img src="ad2.png">
+		</div>
+	</div><!--ad-box-->
+
+
+  </div><!--box-->
+ </body>
+</html>

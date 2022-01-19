@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> Number对象练习题 </title>
+  <script type="text/javascript">
+/*	1. 请输出23的二进制字符串和16进制的字符串
+	2.   计算7/3的结果，并保留到小数点后两位(四舍五入) */
+
+	var num1 = new Number(23);
+	//将23的对应的二进制字符串输出
+	var num1_str1 = num1.toString(2);
+	var num1_str2 = num1.toString(16);
+
+	alert(num1_str1 + " " + num1_str2);
+
+	//10111  ==>  1 + 1*2  + 1*2*2 + 1*2*2*2*2 = 23
+	//17 => 7 +  1*16 = 23
+
+
+	//Number对象是混合型，可以直接使用 number方法，也可以创建一个Number对象再使用方法
+	var num2 = 7/3;
+	var num3 = num2.toFixed(2);
+	alert("num3 = " + num3);
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

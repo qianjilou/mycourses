@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> New Document </title>
+  <script type="text/javascript">
+	 var a = [90, 0, 12, "北京", true];
+	 //常规遍历
+	 for(var i = 0; i < a.length; i++)
+	 {	
+		 window.alert(a[i]);
+	 }
+
+	 window.alert("第二种遍历开始");
+	 //key 表示数组每个元素的下标
+	 for(var key in a)
+	 {
+		 window.alert(key + " " +a[key]);
+	 }
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

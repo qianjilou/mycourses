@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> if .else if .. else if... ..else </title>
+  <script type="text/javascript">
+  /*你看春晚了吗?*/
+  var answer = window.prompt("你看春晚了吗? 输入yes 表示看，输入no表示没有看");
+  if(answer === "yes")
+  {
+	  //嵌套
+	  var fen = window.prompt("请给春晚打分");
+	  if(fen > 90)
+	  {
+		 window.alert("看了春晚还是比较符合你的口味!");
+	  }else
+	  {
+		 window.alert("春晚不行");
+	  }
+  }else if(answer === "no")
+  {
+	  window.alert("春晚都不看!");
+  }else
+  {
+	  window.alert("能不能严肃点!");
+  }
+  window.alert("num1=" + num1);
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

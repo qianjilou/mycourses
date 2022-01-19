@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 定时抛售股票 </title>
+  <script type="text/javascript">
+
+	var timer = 0;
+	function abc(val)
+	{
+		
+		if(val == "start")
+		{
+			//setTimeout的函数的用法是，只被触发一次。
+			/**
+				@chuli() 是调用的函数
+				@5000 表示5秒，后去调用chuli函数
+			*/
+			timer = window.setTimeout("chuli()", 5000);
+		}else
+		{
+			//介绍一个新函数，clearTimeout() 
+			window.clearTimeout(timer);
+		}
+	}
+	function chuli()
+	{
+		alert("把你的股票抛售完了，谢谢！");
+	}
+  </script>
+ </head>
+ <body>
+  <h1>定时抛售股票</h1>
+  <input type="button" value="5秒后抛售股票" onclick="abc('start')">
+  <input type="button" value="撤回抛售" onclick="abc('stop')">
+ </body>
+</html>

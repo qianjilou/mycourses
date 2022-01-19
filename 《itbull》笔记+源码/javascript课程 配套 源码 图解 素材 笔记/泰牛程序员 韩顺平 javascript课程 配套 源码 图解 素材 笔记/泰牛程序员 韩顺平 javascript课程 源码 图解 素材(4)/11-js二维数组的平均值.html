@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 二维数组的平均值 </title>
+  <script type="text/javascript">
+  var arr = [[6, 90, 90],[7, 20, 30, 90, 11], [90,23, 9]];
+  //分析： 1.求和， 2.计算出一共有多少个数
+
+  //二维数组的元素个数
+  var arr_len1 = arr.length;
+  //求和
+  var sum = 0;
+  //获取共有多少个数
+  var num_count = 0;
+ 
+  for(var i = 0; i < arr_len1; i++)
+  {
+	  //获取每个一维个数
+	  var arr_len2 = arr[i].length;
+	  //累计num_count
+	  num_count += arr_len2;
+	  for(var j = 0; j < arr_len2; j++)
+	  {
+			//累计和
+			sum += arr[i][j];
+	  }
+  }
+  window.alert("sum = " + sum + "平均值 = " + (sum/num_count));
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

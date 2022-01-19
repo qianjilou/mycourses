@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> input元素新增的属性 </title>
+  <style type="text/css">
+	input{
+		line-height:28px;
+		width:200px;
+		margin-top: 3px;
+	}
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <h1>提交相关信息</h1>
+  <form action="xxx.php" method="post">
+	电子邮件：<input type="email" name="email" required><br>
+	输入网址：<input type="url" name="url"><br>
+	出生日期：<input type="date" name="date"><br>
+	具体时间：<input type="time" name="time"><br>
+	出生月份：<input type="month" name="month"><br>
+	选择星期：<input type="week" name="week"><br>
+	电话号码：<input type="number" name="numbertest"><br>
+	调节亮度：<input type="range" min="0" max="255" name="range"><br>
+	选择颜色：<input type="color" name="color"><br>
+	请选地区：<select>
+				<optgroup label="北京">
+				<option>西城区</option>
+				<option>东城区</option>
+				</optgroup>
+				<optgroup label="成都">
+				<option>青羊区</option>
+				<option>金牛区</option>
+				</optgroup>
+				</select><br>
+	选择车型：<input type="text" list="cars">
+			   <datalist id="cars">
+				<option>宝马</option>
+				<option>泰牛</option>
+				<option>大众</option>
+			   </datalist><br>
+	<input type="submit" value="提交信息">
+  </form>
+ </body>
+</html>

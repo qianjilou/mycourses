@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> New Document </title>
+  <style type="text/css">
+  </style>
+  
+ </head>
+ <body>
+  <!--画布-->
+  <canvas id="my-canvas"  width="500px" height="400px" style="border:1px solid red">
+
+  <script type="text/javascript">
+
+
+		var my_huabu = document.getElementById("my-canvas");
+		var my_huabi = my_huabu.getContext("2d");
+
+		//直线
+		//my_huabi.strokeStyle 是非填充用的画笔
+		my_huabi.strokeStyle = "red";
+		//1开始一个路径
+		my_huabi.beginPath();
+		//2确定起始点
+		my_huabi.moveTo(10,10);
+		//3确定下一个点
+		my_huabi.lineTo(10,70);
+		//4closePath闭合路径
+		my_huabi.closePath();
+		//5画线
+		my_huabi.stroke();
+
+		//空心三角
+		//3.1 开始一个全新的路径
+		my_huabi.beginPath();
+		my_huabi.moveTo(50, 10);
+		my_huabi.lineTo(50, 100);
+		my_huabi.lineTo(100, 100);
+		my_huabi.closePath();
+		my_huabi.stroke();
+
+		//填充的三角
+		my_huabi.fillStyle = "red";
+		my_huabi.beginPath();
+		my_huabi.moveTo(120, 10);
+		my_huabi.lineTo(120, 100);
+		my_huabi.lineTo(170, 100);
+		
+		my_huabi.fill();
+
+		//空心的矩形
+
+		my_huabi.rect(200, 10, 150, 100);
+		//画线
+		my_huabi.stroke();
+
+		//填充的矩形
+		my_huabi.fillRect(10, 150, 150, 100);
+
+		//空心的圆形
+		//开始新的路径
+		my_huabi.beginPath();
+		//x,y表示圆心 , r 半径 ， 开始的弧度, 结束的弧度, 顺时针还是逆时针
+		my_huabi.arc(255, 200, 20, 0 , 0.5 * Math.PI);
+		//把路径给封闭,成为一个闭合的图形
+		//如果你不封闭，则是一个非闭合的图形
+		my_huabi.closePath();
+		my_huabi.stroke();
+
+		////////////////实心的小圆
+		//开始新的路径
+		my_huabi.fillStyle = "blue";
+		my_huabi.beginPath();
+		//x,y表示圆心 , r 半径 ， 开始的弧度, 结束的弧度, 顺时针还是逆时针
+		my_huabi.arc(300, 200, 20, 0 , 2 * Math.PI);
+		//把路径给封闭,成为一个闭合的图形
+		//如果你不封闭，则是一个非闭合的图形
+		my_huabi.closePath();
+		my_huabi.fill();
+
+
+		//drowImage, 创建一个图片对象
+		var hsp_img = new Image();
+		hsp_img.src = "hsp.png";
+		my_huabi.drawImage(hsp_img, 320, 250);
+
+		//给画笔设置字体
+
+		my_huabi.font = "40px 华文新魏";
+		//如何放入放入文字
+	
+		my_huabi.strokeText("泰牛程序员",20, 300);
+
+
+		//画出一个弧形线
+		//不做要求.
+		my_huabi.strokeStyle = "black";
+		my_huabi.beginPath();
+		my_huabi.moveTo(20,20);           // 创建开始点
+		my_huabi.lineTo(100,20);          // 创建水平线
+		my_huabi.arcTo(150,20,150,70,50); // 创建弧
+		my_huabi.lineTo(150,120);         // 创建垂直线
+		my_huabi.stroke();                // 进行绘制
+
+  </script>
+ </body>
+</html>

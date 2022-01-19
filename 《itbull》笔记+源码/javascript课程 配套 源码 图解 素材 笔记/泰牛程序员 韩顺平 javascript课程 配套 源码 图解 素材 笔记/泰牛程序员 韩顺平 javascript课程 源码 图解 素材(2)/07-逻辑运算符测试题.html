@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 逻辑运算测试题 </title>
+  <script type="text/javascript">
+	
+	var a = 100;
+	var b = 0;
+	/*
+		关于逻辑或的说明
+		1. 它的两边的运算有一个为真，则整个结果为真
+		2. 当前面的某个运算结果为真，则后面的运算不再执行
+		3. 逻辑或的结果是 为真的那个表达式的结果
+		4. 不管我们的逻辑运算有多么复杂，最终的结果要么是真，要么是假
+
+
+	*/
+
+/*	var c = b || a++;
+	alert(c); //1
+	alert(a); //100	 */
+	
+	
+	
+	var d = 100;
+	var e = 1;
+	var f = e && ++d; //e 1  d 101
+	window.alert(f);
+	window.alert(d);
+
+
+	//逻辑非说明
+	/*
+		1.逻辑非比较简单，最后的结果是 true 或者 false
+	*/
+
+	var k = 1;
+	var j = !k;
+	window.alert("j=" + j);
+  
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

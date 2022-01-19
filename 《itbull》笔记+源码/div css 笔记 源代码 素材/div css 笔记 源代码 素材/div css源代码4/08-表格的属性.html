@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> table属性 </title>
+  <style type="text/css">
+	table{
+		width:700px;
+		text-align:center;
+		border:3px solid silver;
+		/*border-collapse:表示将表格的边框，合并到一起 */
+		border-collapse:collapse;
+		background-color:pink;
+		margin:0 auto;
+		/*把表格的各个列平均的分配*/
+		/*table-layout:automatic;*/
+	}
+	tr, td, th{
+		border:1px solid blue;
+		line-height:30px;
+		
+	}
+	tr.tr-te{
+		background-color:silver;
+	}
+	.input-class{
+		width:100px;
+	}
+  </style>
+ </head>
+ <body>
+  <table>
+	<caption><h1>水浒英雄排行榜</h1></caption>
+	<tr class="tr-te">
+	<th width="10%">编号</th>
+	<th width="20%">名字</th>
+	<th width="70%">内容</th>
+	</tr>
+	<tbody>
+	<tr>
+	<td>001</td>
+	<td>宋江</td>
+	<td>及时雨及时雨及时雨及时雨及时雨及时雨及时雨雨及时雨雨及时雨</td>
+	</tr>
+
+	<tr>
+	<td>002</td>
+	<td>卢俊义</td>
+	<td>玉麒麟</td>
+	</tr>
+
+	<tr>
+	<td>001</td>
+	<td>宋江</td>
+	<td>及时雨</td>
+	</tr>
+
+	<tr>
+	<td>002</td>
+	<td>卢俊义</td>
+	<td>玉麒麟</td>
+	</tr>
+
+	<tr>
+	<td>002</td>
+	<td>&nbsp;</td>
+	<td>
+	<input class="input-class" type="password" name="abc"><br>
+	<input class="input-class" type="text" name="abc">
+	</td>
+	</tr>
+	</tbody>
+  </table>
+ </body>
+</html>

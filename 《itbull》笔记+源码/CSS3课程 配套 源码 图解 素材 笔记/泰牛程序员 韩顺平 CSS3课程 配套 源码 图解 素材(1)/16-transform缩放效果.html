@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> transform的缩放效果 </title>
+  <style type="text/css">
+	#div1{
+		width:200px;
+		height:150px;
+		margin:100px auto;
+		background:green;
+		/*变化的规则放到变化的元素中*/
+		/*
+			transition:all 2s ease 0s;
+			all:是一个默认值
+			2s:表示变化的效果在2秒钟内完成。
+			ease: 一般是默认值
+			0s: 表示延时多久.
+
+		*/
+		/*transition:all 2s ease 2s;*/
+		/*一般情况是*/
+		transition:all 2s;
+
+	}
+
+	#div1:hover{
+		/*变大2倍*/
+		/*
+			scale(值) ： x,y同时按比例变化
+			scaleX(值):  x方向变化，y不变
+			scaleY(值):  y方向变化，x不变
+		*/
+		transform:scale(0.5);
+	}
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="div1"></div>
+ </body>
+</html>

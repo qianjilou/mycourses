@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 多分支的案例 </title>
+  <script type="text/javascript">
+	/*
+	编写一个程序,可以输入捐款数额,如果该同志
+  的捐款大于1000,则输出 “你真有爱心，为您点个赞!”。
+  如果该同志的捐款大于500并且小于等于1000,则输出 “还不
+    错，可以再多捐点！”。其它情况,则输出“朋友，抠了点”。
+	*/
+	var money = window.prompt("请输入捐款数额");
+	//将接收到的字符串-》数值
+	money = parseFloat(money);
+	if(money > 1000)
+	{
+		window.alert("你真有爱心，为您点个赞!");
+	}else if(money > 500)
+	{
+		window.alert("还不错，可以再多捐点！");
+	}else
+	{
+		window.alert("朋友，抠了点");
+	}
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 显示隐藏的小狗 </title>
+  <script type="text/javascript">
+  </script>
+  <style type="text/css">
+	#div1{
+		width:150px;
+		height:150px;
+		border:1px solid blue;
+		/*
+			overflow:hidden; 不能显示的部分，隐藏起来
+		*/
+		overflow:hidden;
+		/*变化的规则*/
+		transition:all 2s;
+		margin:100px auto;
+	}
+
+	
+	#div1:hover{
+		/*变化的动作*/
+		width:266px;
+		height:266px;
+	}
+  </style>
+ </head>
+ <body>
+  <div id="div1">
+  移动鼠标看全图
+  <img src="dog2.gif">
+  <div>
+ </body>
+</html>

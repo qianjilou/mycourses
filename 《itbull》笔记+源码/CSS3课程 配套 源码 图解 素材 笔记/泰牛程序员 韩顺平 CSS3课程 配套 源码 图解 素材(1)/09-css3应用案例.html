@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> :before :after应用案例 </title>
+  <style type="text/css">
+	
+	#content{
+		width:300px;
+		height:30px;
+		border:1px solid black;
+	}
+
+	#content input{
+		width:210px;
+		height:25px;
+		line-height:25px;
+		border:none;
+	}
+
+	/*在div的内部的前面加入一个背景图片*/
+	#content:before{
+		background:url('tu1.png') no-repeat;
+		width:30px;
+		height:30px;
+		/*行内盒子显示*/
+		display:inline-block;
+		/*如果要显示插入的行内盒子，需要写content属性，即使为空也要写*/
+		content: "";
+		/*插入的行内盒子，向下居中，才能不影响后面的元素的位置*/
+		vertical-align:middle;
+		margin-top:2px;
+		margin-left:10px;
+		margin-right:5px;
+	}
+
+	#content:after{
+		background:url('tu2.png') no-repeat;
+		width:30px;
+		height:30px;
+		/*行内盒子显示*/
+		display:inline-block;
+		/*如果要显示插入的行内盒子，需要写content属性，即使为空也要写*/
+		content: "";
+		/*插入的行内盒子，向下居中，才能不影响后面的元素的位置*/
+		vertical-align:middle;
+		margin-top:2px;
+		margin-left:5px;
+	}
+	
+
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+ <div id="content"><input type="text" value="搜索课程.."></div> 
+ </body>
+</html>

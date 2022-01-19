@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--绑定整个html文档的onclick事件-->
+<html onclick="showStar(event)">
+ <head>
+  <meta charset="utf-8">
+  <title> 星星点灯 </title>
+  <script type="text/javascript">
+
+	function showStar(event)
+	{
+		//获取点击的横坐标和纵坐标
+		//alert("x = " + event.clientX + " y =" + event.clientY);
+		//把星星放到页面
+		// 1.创建一个图片元素.
+		var img_obj = document.createElement("img");
+		// 2.设置好图片的样式(位置，src,大小)
+		img_obj.src = "xingxing.gif";
+		img_obj.style.position = "absolute";
+		img_obj.style.width = getRandom(60, 200) + "px";
+		img_obj.style.top = event.clientY - (img_obj.height/2) + "px";
+		img_obj.style.left = event.clientX - (img_obj.width/2) + "px";
+		// 3. 把这个图片元素加入到body
+		document.body.appendChild(img_obj);
+
+	}
+	//使用一个函数，产生一个随机数 min-max
+	function getRandom(min, max)
+	{
+		var size = Math.random() * (max - min) + min;
+		size = Math.ceil(size);
+		return size;
+	}
+	
+
+  </script>
+ </head>
+ <body bgcolor="black">
+  
+ </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 3d打开盒子的效果 </title>
+  <script type="text/javascript">
+  </script>
+  <style type="text/css">
+	#content{
+		width:200px;
+		height:200px;
+		
+		margin:100px auto;
+		position:relative;
+
+	}
+	#face1{
+		width:200px;
+		height:200px;
+		position:absolute;
+		top:0%;
+		left:0%;
+		background:url('t1.gif');
+		border-radius:50%;
+	}
+	#face2{
+		width:200px;
+		height:200px;
+		position:absolute;
+		top:0%;
+		left:0%;
+		background:url('t2.gif');
+		/*旋转规则*/
+		transform-origin:bottom;
+		transition:all 3s;
+		border-radius:50%;
+		
+
+	}
+	/*是当鼠标移动到content的上面的face2时*/
+	#content:hover #face2{
+		transform:rotateX(180deg);
+	}
+  </style>
+ </head>
+ <body>
+  <div id="content">
+	<div id="face1"></div>
+	<div id="face2"></div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,7 @@
+/*这里我们规定了一个字体的样式*/
+.my-font1{
+	font-size:30px;
+	color:blue;
+	font-family:'华文新魏';
+	background-color:pink;
+}

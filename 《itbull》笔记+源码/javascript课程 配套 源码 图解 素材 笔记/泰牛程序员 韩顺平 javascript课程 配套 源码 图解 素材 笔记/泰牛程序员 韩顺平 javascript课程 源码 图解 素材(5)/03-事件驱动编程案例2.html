@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> js事情是否可以被多个函数监听 </title>
+  <script type="text/javascript">
+	function mama()
+	{
+		alert("知道了，我来救你!");
+	}
+	function  baba()
+	{
+		alert("知道了，我也来救你!");
+	}
+  </script>
+ </head>
+ <body>
+  <input type="button" value="打人了" onclick="mama(), baba()">
+ </body>
+</html>

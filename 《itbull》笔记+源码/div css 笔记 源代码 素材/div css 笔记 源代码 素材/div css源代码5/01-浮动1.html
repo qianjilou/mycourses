@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 浮动 </title>
+  <style type="text/css">
+	
+	.div1{
+		border:1px solid red;
+		width:500px;
+		height:500px;
+	}
+
+	.div-box1{
+		width:150px;
+		height:100px;
+		background:pink;
+		border:1px solid blue;
+		/*使用左浮动*/
+		float:left;
+		margin-left:5px;
+		margin-top:5px;
+	}
+	.span1{
+		background-color:silver;
+		width:150px;
+		height:100px;
+		/*行内元素可以浮动，浮动后，就有块元素特点*/
+		float:left;
+		margin-left:5px;
+		margin-top:5px;
+	}
+  </style>
+ </head>
+ <body>
+ <div class="div1">
+  <div class="div-box1">div1</div>
+  <div class="div-box1">div2</div>
+  <div class="div-box1">div3</div>
+  <!--行元素是否可以浮动?-->
+  <span class="span1">span1</span>
+  <span class="span1">span2</span>
+ </div>
+ </body>
+</html>

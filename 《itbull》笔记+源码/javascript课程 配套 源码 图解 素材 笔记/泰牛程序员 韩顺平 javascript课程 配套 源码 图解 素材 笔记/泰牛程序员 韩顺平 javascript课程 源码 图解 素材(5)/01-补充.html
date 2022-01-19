@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 动态类 和 静态类 </title>
+  <script type="text/javascript">
+
+	//动态类
+	var str = "abc";
+	alert(typeof(str));
+	alert(str.substr(1,2));
+	
+	var str2 = new String("hello");
+	alert(typeof(str2));
+	alert(str2.length);
+
+	//静态类
+	alert(Math.abs(-234));
+
+	//Number 混合
+	var num1 = 100.9890;
+	alert(num1.toFixed(2));
+	var num2 = new Number(100.867);
+	alert(num2.toFixed(1));
+
+	alert(Number.MAX_VALUE);
+
+
+	var str = "itbull";
+	str = "llubti";
+	
+	var y = str[0].toUpperCase();
+
+	alert("看看=" +  y);
+	
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> html标签选择器案例 </title>
+  <style type="text/css">
+	.span-news{
+		font-weight:bold;
+		background-color:pink;
+		color:black;
+	}
+	#span-news-tb{
+		font-weight:bold;
+		font-size:25px;
+		background-color:silver;
+	}
+	/*类选择器的优先级 > HTML标签选择器*/
+	/*父元素的样式，会被子元素继承下来*/
+	/*body{
+		color:orange;
+	}*/
+	span{
+		color:red;
+	}
+	p{
+		color:blue;
+		font-size:20px;
+		background-color:pink;
+		width:400px;
+	}
+  </style>
+ </head>
+ <body>
+ 你好，北京!<span class="span-news">新闻一</span>
+ <span class="span-news">新闻一</span>
+ <span class="span-news">新闻一</span>
+ <span class="span-news">新闻一</span>
+ <span class="span-news">新闻一</span>
+ <hr>
+ <span id="span-news-tb">这是一个比较重要的新闻</span>
+ <p>hello,world!</p>
+ <p>hello,world!</p>
+ <p>hello,world!</p>
+ <p>hello,world!</p>
+ <p>hello,world!</p>
+ <p>hello,world!</p>
+ </body>
+</html>

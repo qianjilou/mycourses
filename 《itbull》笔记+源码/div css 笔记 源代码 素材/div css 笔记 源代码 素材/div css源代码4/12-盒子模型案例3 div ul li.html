@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> div - ul - li 经典布局 </title>
+  <style type="text/css">
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	#div-box1{
+		width:500px;
+		height:400px;
+		border:1px solid silver;
+		margin:40px 0 0 140px;
+	}
+	.faceul{
+		list-style-type:none;
+		background-color:pink;
+	}
+	.faceul  img{
+		width:40px;
+		margin:5px 0 0 10px;
+	}
+	.faceul li{
+		/*为了让li放到一排，使用了左浮动*/
+		float:left;
+		border:1px solid red;
+		width:60px;
+		height:70px;
+		margin-left:25px;
+		margin-top:20px;
+	}
+	.faceul span{
+		font-size:small;
+		margin-left:15px;
+		margin-top:-3px;
+		display:block;
+	}
+	.faceul a:link{
+		color:black;
+		text-decoration:none;
+	}
+	.faceul a:hover{
+		color:red;
+		text-decoration:underline;
+	}
+  </style>
+ </head>
+ <body>
+  <div id="div-box1">
+  <ul class="faceul">
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	<li><img src="aa.bmp"><span><a href="#">明星</a></span></li>
+	
+  </ul>
+  </div>
+ </body>
+</html>
+	

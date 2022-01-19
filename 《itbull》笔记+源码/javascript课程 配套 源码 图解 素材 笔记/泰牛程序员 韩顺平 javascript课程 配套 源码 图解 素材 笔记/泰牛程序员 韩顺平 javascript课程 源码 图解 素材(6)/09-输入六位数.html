@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 一个文本框，控制只能输入六位数字 </title>
+  <script type="text/javascript">
+
+	var count = 0;
+	function checkNum(event)
+	{
+		
+		//如何解决把输入的数，在删除回退键
+		if(event.keyCode == 8)
+		{
+			//一旦return ,后面的代码不再执行
+			count--;
+			return true;
+		}
+		
+		if(count == 6)
+		{
+			alert("已经超过六位，不能再输入");
+			return false;
+		}else if(event.keyCode < 48 || event.keyCode > 57 )
+		{
+			//1.的你输入的字母的keyCode[键值]
+			alert("你输入不是一个数");
+			//2留下一个思考题，如果处理ff下会放入字母的问题
+			return false;
+		}else
+		{
+			count++;
+		}
+	}
+  </script>
+ </head>
+ <body>
+	<!--对应ie来说，如果onkeydown得到了一个false,就放弃输入-->
+  请输入六位数：<input type="text" id="num" onkeydown="return checkNum(event)">
+ </body>
+</html>

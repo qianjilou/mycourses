@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> Navigator对象 </title>
+  <script type="text/javascript">
+		
+		//1.获取navigator对象的属性 userAgent
+		var browser_type = navigator.userAgent;
+		if(browser_type.indexOf("Chrome") >= 0)
+		{
+			alert("你使用了谷歌浏览器");
+		}else if(browser_type.indexOf("MSIE") >= 0)
+		{
+			alert("你使用了IE浏览器");
+		}else if(browser_type.indexOf("Firefox") >= 0)
+		{
+			alert("你使用了ff浏览器");
+		}else
+		{
+			alert("你使用了其它浏览器");
+		}
+
+		document.write(navigator.platform + "cookie" + navigator.cookieEnabled);
+	
+  </script>
+ </head>
+ <body>
+  <h1>判断浏览器的类型</h1>
+ </body>
+</html>

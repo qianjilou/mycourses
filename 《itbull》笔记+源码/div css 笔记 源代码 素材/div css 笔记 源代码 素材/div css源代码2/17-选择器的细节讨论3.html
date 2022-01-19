@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 所有选择器的优先级高低比较 </title>
+  <!--
+	!important > 行内样式 > id选择器 > 类选择器 > html标签选择器 >通配符选择器
+	> html属性的指定 > 继承的样式属性(层叠 css, 层叠的样式时文本,字体属性)
+  -->
+  <style type="text/css">
+	/*.span1{
+		color:red !important;
+	}
+	#id-span{
+		color:green;
+	}
+	span{
+		color:orange;
+	}
+	.class-span2{
+		color:pink;
+	}*/
+	/**{
+		color:blue;
+	}*/
+	body{
+		color:red;
+		
+		background-color:pink;
+		
+	}
+	div{
+		font-size:50px;
+	}
+  </style>
+ </head>
+ <body>
+  <span class="span1" style="color:blue;">我是什么颜色</span>
+  <span id="id-span" style="color:blue;">我是什么颜色</span>
+  <span>我是什么颜色</span>
+  <font color="green">我是什么颜色</font>
+  <font color="orange">hello,world;</font>
+
+  <!--看看继承父元素的样式是什么继承的是文本和字体 --><hr>
+  <div>hello,<span>worlkkkkk!!!</span>d</div>
+ </body>
+</html>

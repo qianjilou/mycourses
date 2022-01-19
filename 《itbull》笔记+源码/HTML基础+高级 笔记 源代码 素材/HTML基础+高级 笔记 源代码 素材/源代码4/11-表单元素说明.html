@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 表单元素说明 </title>
+ </head>
+ <!--
+	特别说明:
+	1.表单提交复选框和单选按钮的数据，是的value属性的值
+	2.复选框和单选按钮的 name 应该保持一致
+ -->
+ <body>
+  <form action="xxx.php" method="get">
+	名字：<input type="text" name="user_name" size="60px" maxlength="3"><br>
+	密码：<input type="password" name="user_pass" size="60px" maxlength="3"><br>
+	<hr>
+	复选框 <br>
+	<input type="checkbox" name="hobby" value="music">音乐<br>
+	<input type="checkbox" name="hobby" value="sport">运动<br>
+	<input type="checkbox" name="hobby" value="sport">运动<br>
+	<input type="checkbox" name="hobby" value="sport">运动<br>
+	<hr>单选<br>
+	<input type="radio" name="sex" value="nan">男<br>
+	<input type="radio" name="sex" value="nv">女<br>
+	<hr>请选择出生地<br>
+	<input type="radio" name="address" value="beijing">北京<br>
+	<input type="radio" name="address" value="sh">上海<br>
+	
+	<hr>隐藏表单<br>
+	<input type="hidden" name="oper" value="delete"><br>
+
+	<hr>图片按钮<br>
+
+	<input type="image" src="niu.png" width="100px">
+
+	<hr><br>
+	下拉框:你喜欢的爱好
+	<!--select 的size 4表示 可以显示多少个选项 multiple="multiple" 表示可以多选-->
+	<select name="like" size="4" multiple="multiple">
+		<!--选择项-->
+		<option value="lq">篮球</option>
+		<option value="zq">足球</option>
+		<option value="wq">网球</option>
+		<option value="pq">皮球</option>
+	</select>
+	<hr><br>
+	文本域<br>
+	<textarea name="article" rows="10" cols="50">请输入内容!</textarea><br>
+	<input type="submit" value="提交">
+
+	
+  </form>
+ </body>
+</html>

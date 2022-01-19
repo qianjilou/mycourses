@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> js的一些其它说明 </title>
+  <script type="text/javascript">
+	
+	//写一个函数，可以计算出传入数值的和，但是传入的数的个数不确定
+	// know how -> know why 
+	function sum()
+	{
+		//如何获取到传入参数的值 [parameter : 参数]
+		var parameters_len = arguments.length;
+		//循环变量参数的具体值, 数组
+		var sum = 0;
+		for(var i = 0; i < parameters_len; i++)
+		{
+			sum = sum + arguments[i];
+		}
+		window.alert(sum);
+	}
+
+	sum(1, 5, 7);
+	//sum(5, 0, 100, 300);
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

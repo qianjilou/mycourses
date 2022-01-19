@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> js简单的计算器 </title>
+  <script type="text/javascript">
+	
+	//我们既然经常使用  document.getElementById(id)， 我们把它封装成一个函数
+	//函数名 $
+	function $(id)
+	{
+		return document.getElementById(id);
+	}
+	function jisuan()
+	{
+		//1获取num1对象
+		var num1_obj = $("num1");
+		//2获取num1对象填写的值
+		var num1_val = num1_obj.value;
+		//3将获取到的num1_val转成数
+		num1_val = parseFloat(num1_val);
+
+		//1获取num2对象
+		var num2_obj = $("num2");
+		//2获取num1对象填写的值
+		var num2_val = num2_obj.value;
+		//3将获取到的num1_val转成数
+		num2_val = parseFloat(num2_val);
+
+		
+		//1获取fuhao对象
+		var fuhao_obj = $("fuhao");
+		//2获取num1对象填写的值
+		var fuhao_val = fuhao_obj.value;
+		
+
+		var res = 0;
+
+		//开始计算 
+		switch(fuhao_val)
+		{
+			//判断用户输入的是什么，然后做相应的处理
+			case "+":
+				res = num1_val + num2_val;
+				break;
+			case "-":
+				res = num1_val - num2_val;
+				break;
+			case "*":
+				res = num1_val * num2_val;
+				break;
+			case "/":
+				res = num1_val / num2_val;
+				break;
+		}
+
+		//把这个值放回到结果框
+		//1.获取到result对象
+		var result_kuang = $("result_kuang");
+		//2.把值放入
+		result_kuang.value = res.toFixed(2);
+
+	}
+  </script>
+ </head>
+ <body>
+  <h1>简单的计算器</h1>
+  第一个数：<input type="text" value="" id="num1" ><br>
+  选择符号：
+  <select name="fuhao" id="fuhao">
+	<option value="+">+</option>
+	<option value="-">-</option>
+	<option value="*">*</option>
+	<option value="/">/</option>
+  </select><br>
+  第二个数：<input type="text" value="" id="num2" ><br>
+  点击计算: <input type="button" value=" = " onclick="jisuan()" ><br>
+  运算结果: <input type="text" value="" id="result_kuang"><br>
+ </body>
+</html>

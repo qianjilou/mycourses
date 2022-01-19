@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> a.html </title>
+  <script type="text/javascript">
+	/*
+		①输入两个数,再输入一个运算符(+,-,*,/)，得到结果
+	*/
+	var num1 = window.prompt("请输入第一个数");
+	num1 = parseFloat(num1);
+	var num2 = window.prompt("请输入第二个数");
+	num2 = parseFloat(num2);
+	var oper = window.prompt("请输入运算符号");
+	var res = 0;
+	switch(oper)
+	{
+		case "+":
+			res = num1 + num2;
+			break;
+		case "-":
+			res = num1 - num2;
+			break;
+		case "*":
+			res = num1 * num2;
+			break;
+		case "/":
+			res = num1 / num2;
+			break;
+		default:
+			document.write("请输入正确的操作符号");
+	}
+
+	document.write("res = " + res);
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

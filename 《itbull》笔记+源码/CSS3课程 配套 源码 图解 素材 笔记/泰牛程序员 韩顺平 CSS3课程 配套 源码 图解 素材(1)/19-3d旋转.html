@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 3d的旋转效果 </title>
+  <script type="text/javascript">
+  </script>
+  <style type="text/css">
+	div{
+		width:266px;
+		height:266px;
+		border:1px solid red;
+		/*如果希望看到3d效果，需要在动的这个元素的父元素，增加一个perspective*/
+		perspective:266px;
+	}
+	img{
+		/*变化规则*/
+		/*顺着img bottom 转动*/
+		transform-origin:left;
+		transition:all 2s;
+	}
+	img:hover{
+		/*变化动作*/
+		transform:rotateX(90deg);
+	}
+  </style>
+ </head>
+ <body>
+  <div><img src="dog2.gif"></div>
+ </body>
+</html>

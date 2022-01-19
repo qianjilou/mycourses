@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> String的小案例 </title>
+  <script type="text/javascript">
+	/*
+	练习 输入文件全路径 获取文件名和后缀?
+比如: 我们输入了一个路径 c:/abc/ttt/bbb/hello.html 
+如何获取到 文件名 hello 和 后缀 html
+
+	*/
+	var str = "c:/abc/ttt/bbb/北京.mp3";
+	//思路 : 先找到 最后 / 然后再找  .位置
+	var p1 = str.lastIndexOf("/");
+	var p2 = str.lastIndexOf(".");
+		
+	var filename = str.substring(p1 + 1, p2);
+	var hz = str.substr(p2 + 1); 
+	
+	window.alert(filename);
+	window.alert(hz);
+	
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

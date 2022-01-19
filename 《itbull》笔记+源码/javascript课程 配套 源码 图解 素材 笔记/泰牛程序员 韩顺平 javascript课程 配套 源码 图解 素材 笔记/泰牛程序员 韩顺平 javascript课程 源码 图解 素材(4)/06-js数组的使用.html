@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 数组的使用 </title>
+  <script type="text/javascript">
+	var arr = [10, 90];
+	//当我们使用一个不存在的数据时，undefined
+	window.alert(arr[3]);
+
+	var city = ['北京', '上海'];
+	//当我们给一个存在的数据重新赋值，相当覆盖
+	city[0] = "天津";
+	//当我们给不存在的数据赋值时，会导致这个数组动态增长
+	city[21] = "成都";
+	//当我们直接输出这个数组名，会显示全部数据
+	window.alert(city);
+	window.alert(city.length);
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

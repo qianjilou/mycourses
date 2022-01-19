@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> css3的状态伪类选择器 </title>
+  <style type="text/css">
+	/*就是该html元素是正常使用状态*/
+	/*选择可以正常使用的html元素*/
+	:enabled{
+		background:blue;
+	}
+	/*选择禁用的html元素*/
+	:disabled{
+		background:yellow;
+	}
+	/*选择被选择的html元素*/
+	:checked{
+		background:blue;
+		width:100px;
+	}
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <input type="text" value="tom"><br>
+  <input type="text" value="北京" disabled><br>
+  篮球<input type="checkbox" checked value="篮球">
+  足球<input type="checkbox" value="足球">
+ </body>
+</html>

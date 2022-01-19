@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 逻辑运算符 </title>
+  <script type="text/javascript">
+	
+	var num1 = 80;
+	var num2 = 90;
+	var num3 = 70;
+	/*&& 逻辑与 ， 
+		1.表示&&符号的两侧的结果都为真时 ,那么整个结果才是true
+		2.其它情况都为假
+		3.不管逻辑运算的表达式有多么复杂，最终就是真或者假
+		
+	*/  
+	if(num1 === num2 && num1 < num3  )
+	{
+		window.alert("ok");
+	}
+	/*
+		逻辑与的细节
+		1.如果前面关系运算结果有一个为假，后面的不再进行判断,这个现象称为短路
+		2.每个关系运算符会返回一个结果，比如 4>3, 4<6; 结果是boolean
+	*/
+	var a1 = 3;
+	var a2 = 4;
+	var a3 = 1;
+	if(a1 < a2 && --a3 && a1++)
+	{
+		window.alert("ok2" + a1);
+	}
+	
+	window.alert(a3); //0
+	window.alert(a1); //3
+	
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> js事件驱动编程的进一步理解 </title>
+  <style type="text/css">
+	
+	#div1{
+		width:300px;
+		height:300px;
+		background-color:red;
+	}
+ 
+  </style>
+  <script type="text/javascript">
+  function showTime()
+  {
+	  var my_time = new Date();
+	  my_time = my_time.toLocaleString();
+	  window.alert(my_time);
+  }
+  /*
+  function showBlack()
+  {
+		//获取到div这个节点对象
+		var div_obj = document.getElementById("div1");
+		div_obj.style.backgroundColor = "black";
+  }
+  function showRed()
+  {
+		//获取到div这个节点对象
+		var div_obj = document.getElementById("div1");
+
+		div_obj.style.backgroundColor = "red";
+		div_obj.style.width = "500px";
+  }*/
+	function changeColor(color)
+	{
+		var div_obj = document.getElementById("div1");
+		div_obj.style.backgroundColor = color;
+	}
+
+	function changeColor2(obj)
+	{
+//		for(var key in obj)
+//		{
+//			document.write(key + "&nbsp;&nbsp;&nbsp;" + obj[key] + "<br>");
+//		}
+		var div_obj = document.getElementById("div1");
+		if(obj.value === "红色" )
+		{	
+			div_obj.style.backgroundColor = "red";
+		}else
+		{
+			div_obj.style.backgroundColor = "black";
+		}
+	}
+
+	function changeColor3()
+	{
+		var div_obj = document.getElementById("div1");
+		
+		if(div_obj.style.backgroundColor == "red")
+		{
+			div_obj.style.backgroundColor = "black";
+		}else
+		{
+			div_obj.style.backgroundColor = "red";
+		}
+	}
+
+  </script>
+ </head>
+ <body>
+  <input type="button" value="点击显示时间" onclick="showTime()" >
+  
+  <div id="div1">
+  </div>
+  <input type="button" value="红色" name="redButton" onclick="changeColor('red')">
+  <input type="button" value="黑色" name="blackButton" onclick="changeColor('black')">
+  <br>
+  <!--this 表示的就当前这个html元素-->	
+  <input type="button" value="红色" name="redButton" onclick="changeColor2(this)">
+  <input type="button" value="黑色" name="blackButton" onclick="changeColor2(this)">
+  <br>
+  <input type="button" value="红色"  onclick="changeColor3()">
+  <input type="button" value="黑色"  onclick="changeColor3()">
+ </body>
+</html>

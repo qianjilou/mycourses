@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.div1{
+	width:50px;
+	height:100px;
+	border:1px solid blue;
+	background: pink;
+	margin-top:5px;
+	float:right;
+}
+.div2{
+	width:400px;
+	border: 1px solid red;
+}
+.clear{
+	clear:both;
+}
+.div3{
+	width:50px;
+	height:100px;
+	border:1px solid blue;
+	background: green;
+	margin-top:5px;
+}
+</style>
+</head>
+<body>
+<div class="div2">
+<div class="div1">div1</div>
+<div class="div1">div2</div>
+<div class="div1">div3</div>
+<!--授课时，通过注销 clear 这个就看到清除浮动的作用了.-->
+<div class="clear"></div>
+<div class="div3">div3</div>
+<!--<div class="div3">div3</div>-->
+
+<div>
+</body>
+</html>
+

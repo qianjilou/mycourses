@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 使用window的定时器，完成小闹钟 </title>
+  <script type="text/javascript">
+
+	//需求，就是让一个函数，反复的被调用
+	function sayHello()
+	{
+		alert("ok , 你好!");
+	}
+	/**
+		@第一个参数，指定要调用的函数名
+		@第二个参数，指定调用的间隔时间 ,时间是毫秒
+	*/
+	window.setInterval("sayHello()", 1000);
+  </script>
+ </head>
+ <body>
+  
+
+ </body>
+</html>

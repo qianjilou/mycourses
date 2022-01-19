@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> Math对象 </title>
+  <script type="text/javascript">
+	
+	//使用Math对象的常用方法
+	var a = -123;
+	var b = Math.abs(a);
+	//window.alert(b);
+
+	var c = 123.3;
+	//向上取整
+	var d = Math.ceil(c);
+	//window.alert(d);
+	//向下取整
+	var e = Math.floor(c);
+	//window.alert(e);
+
+	var f = Math.min(10, 11, 123, -90, 567);
+	//window.alert(f);
+
+	var g = 345.5;
+	var r = Math.round(g);
+	//window.alert(r);
+
+	//random函数[随机生成一个 0 ~ 1 小数，0 <= x < 1]
+	var y = Math.random();
+	//window.alert(y);
+
+	//小练习   0~11  规定 3, 5 是一等奖  =》 1/6
+	var no = Math.random() * 12;    
+	
+	var flag = 0;
+
+	for(var i = 0; i < 200; i++)
+	{
+		var no = Math.random() * 12;  
+		no = Math.floor(no);
+		if(no == 3 || no == 5)
+		{
+			window.alert("恭喜你中了 一等奖");	
+		}
+	}
+
+
+	var no_2 = Math.random() * 11;  
+	no_2 = Math.round(no_2);
+	document.write("<img src='./star/"+ (no_2+1) +".png'>");
+	
+	
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>
